@@ -42,6 +42,9 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  color: #A66E24;
+  font-family: 'Work Sans';
+  font-weight: bold;
 }
 
 section h3.section-subheading {
