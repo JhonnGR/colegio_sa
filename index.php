@@ -57,28 +57,28 @@
           <ul class="navbar-nav  ml-auto">
 
             <li class="nav-item">
-              <a style="color: #642529;font-family: 'Work Sans', sans-serif;font-size: 15px;
-              " class="nav-link js-scroll-trigger" href="#sedes"><i class="fas fa-home"></i> <strong>Inicio</strong></a>
+              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              .hover{ color: black;}" class="nav-link js-scroll-trigger" href="#sedes"><i class="fas fa-home"></i> <strong>Inicio</strong></a>
               <li class="nav-item">
 
             <li class="nav-item">
-              <a style="color: #642529;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
               " class="nav-link js-scroll-trigger" href="#portfolio"><i class="fas fa-list-alt"></i> <strong>Servicios</strong></a>
             </li>
 
             <li class="nav-item">
-              <a style="color: #642529;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
               " class="nav-link js-scroll-trigger" href="#sedes"><i class="fas fa-map-marked-alt"></i> <strong>Infraestructura</strong></a>
               <li class="nav-item">
-              <a style="color: #642529;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
               " class="nav-link js-scroll-trigger" href="cita.html"><i class="fas fa-address-card"></i> <strong>Citas/Consultas</strong></a>
             </li>
             <li class="nav-item">
-              <a style="color: #642529;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
               " class="nav-link js-scroll-trigger" href="software/view/index.php"><i class="fas  fa-folder"></i> <strong>Documentos</strong></a>
             </li>
             <li class="nav-item">
-              <a style="color: #642529;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
               " class="nav-link js-scroll-trigger" href="#contact"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
             </li>
 
@@ -163,179 +163,26 @@ body {margin:0;height:200px;}
       <section class="py-5" id="services">
       <div class="container">
 
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading text-uppercase">LA INSTITUCIÓN EDUCATIVA PRIVADA «SAN AGUSTÍN»</h2>
 
+              <div>
+                <h5>La Institución Educativa Privada “San Agustín”, fue creado en el año de 1991, con la RD N° 0945 del 30-09-91, con el lema “Forjando el presente y futuro con disciplina y trabajo” gestionado ante la UGEL 05 ex USE 03 del distrito de San Juan de Lurigancho por el Dr. Félix De La Cruz Moreno, siendo su  propósito el de brindar un servicio educativo de calidad a un costo social tanto en los niveles de educación Inicial, Primaria y Secundaria  de menores. </h5>
+              </div>
 
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">NOSOTROS</h2>
-
+            </div>
           </div>
+
         </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto" style="width: 150px; height: auto;" src="imagescrd/visitante.png" alt="">
-              <h4>NUESTRA EMPRESA</h4>
-              <div class="col-lg-8 mx-auto text-center">
-              <p class="large text-muted">Somos una propuesta nueva en servicios de radiología dental.</p>
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenter1">
-              Leer mas
-              </button>
+      </section>
 
-              <!-- Modal -->
-              <div class="modal fade" id="ModalCenter1" tabindex="-1" role="dialog" aria-labelledby="ModalCenter1Title" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
 
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="ModalLong1Title">Nuestra Empresa</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="imagescrd/visitante.png" alt="">
-                      <p>Somos una propuesta nueva en servicios de radiología dental; comprometida en brindar Calidad de Imágenes y Precios Justos. Todo esto apoyado por un equipo de técnicos y profesionales altamente capacitados, siempre dispuestos a brindarles una atención cordial y de calidad.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=51916602775">
-                  <i class="fa fa-whatsapp"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
-                  <i class="fa fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
-                      <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                    </div>
-                  </div>
-               </div>
-              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto" style="width: 150px; height: auto;" src="imagescrd/mision.png" alt="">
-              <h4>MISION</h4>
-              <div class="col-lg-8 mx-auto text-center">
-              <p class="large text-muted">Lograr que la radiología dental esté al alcance de todos....</p>
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenter2">
-              Leer mas
-              </button>
 
-              <!-- Modal -->
-              <div class="modal fade" id="ModalCenter2" tabindex="-1" role="dialog" aria-labelledby="ModalCenter2Title" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
 
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="ModalLong2Title">Misión</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="imagescrd/mision.png" alt="">
-                    <P> Lograr que la radiología dental esté al alcance de todos, dedicando todo nuestro potencial en brindar un servicio de nivel superior, con alta orientación al servicio de nuestros clientes de forma eficiente y oportuna. En resumen, como indica nuestro lema: “Calidad, Precio Justo”</P>
 
-                    </div>
-                    <div class="modal-footer">
-                      <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=51916602775">
-                  <i class="fa fa-whatsapp"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
-                  <i class="fa fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
-                      <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                    </div>
-                  </div>
-               </div>
-              </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto" style="width: 150px; height: auto;" src="imagescrd/empleado.png" alt="">
-              <h4>VISION</h4>
-              <div class="col-lg-8 mx-auto text-center">
-              <p class="large text-muted">Ser una Empresa de servicio Radiológicos líder en el Perú,...</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenter3">
-              Leer mas
-              </button>
 
-              <!-- Modal -->
-              <div class="modal fade" id="ModalCenter3" tabindex="-1" role="dialog" aria-labelledby="ModalCenter3Title" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="ModalLong3Title">Visión</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-
-                      <div class="modal-body">
-                      <img src="imagescrd/empleado.png" alt="">
-                     <p>Ser una Empresa de servicio Radiológicos líder en el Perú, dotados de la más alta tecnología, superando las expectativas de nuestros pacientes y doctores.
-Brindar una atención personalizada manteniendo una relación duradera, poniendo toda nuestra experiencia a su servicio, convirtiéndonos en un aliado estratégico para nuestros doctores clientes en su plan de tratamiento.
-</p>
-                    </div>
-                    <div class="modal-footer">
-                      <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=51916602775">
-                  <i class="fa fa-whatsapp"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
-                  <i class="fa fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
-                      <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                    </div>
-                  </div>
-               </div>
-              </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
      <!-- About -->
     <!-- Portfolio Grid -->
     <section class="py-5" id="portfolio">
