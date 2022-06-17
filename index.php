@@ -79,7 +79,7 @@
             </li>
             <li class="nav-item">
               <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
-              " class="nav-link js-scroll-trigger" href="#contact"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
+              " class="nav-link js-scroll-trigger" href="https://sanagustinsjl.cubicol.pe/principal/login"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
             </li>
 
           </ul>
@@ -158,8 +158,7 @@ body {margin:0;height:200px;}
           </div>
       </div>
     </header>
-
-    <!-- Services -->
+    <!-- Descripción-->
       <section class="py-5" id="services">
       <div class="container">
 
@@ -168,7 +167,12 @@ body {margin:0;height:200px;}
               <h2 class="section-heading text-uppercase">LA INSTITUCIÓN EDUCATIVA PRIVADA «SAN AGUSTÍN»</h2>
 
               <div>
-                <h5>La Institución Educativa Privada “San Agustín”, fue creado en el año de 1991, con la RD N° 0945 del 30-09-91, con el lema “Forjando el presente y futuro con disciplina y trabajo” gestionado ante la UGEL 05 ex USE 03 del distrito de San Juan de Lurigancho por el Dr. Félix De La Cruz Moreno, siendo su  propósito el de brindar un servicio educativo de calidad a un costo social tanto en los niveles de educación Inicial, Primaria y Secundaria  de menores. </h5>
+                <h5 style="text-align: justify;">La Institución Educativa Privada “San Agustín”,
+                  fue creado en el año de 1991, con la RD N° 0945 del 30-09-91,
+                  con el lema “Forjando el presente y futuro con disciplina y trabajo”
+                  gestionado ante la UGEL 05 ex USE 03 del distrito de San Juan de Lurigancho por el
+                  Dr. Félix De La Cruz Moreno, siendo su  propósito el de brindar un servicio educativo
+                  de calidad a un costo social tanto en los niveles de educación Inicial, Primaria y Secundaria  de menores. </h5>
               </div>
 
             </div>
@@ -177,118 +181,236 @@ body {margin:0;height:200px;}
         </div>
       </section>
 
-
-
-
-
-
-
-     <!-- About -->
-    <!-- Portfolio Grid -->
-    <section class="py-5" id="portfolio">
+    <!-- vision y mision-->
+      <section class="py-5" id="services">
       <div class="container">
+
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Servicios</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-               <img class="img-responsive" src="imagescrd/portafolio1.jpg" alt="" style="width:100%; height:230px;">
-            </a>
-            <div class="portfolio-caption">
-              <h4>TOMOGRAFÍA VOLUMÉTRICA</h4>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
 
-              <img class="img-responsive" src="imagescrd/portafolio02.jpg" alt="" style="width:100%;height: 230px;">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Rx PANORÁMICA DIGITAL</h4>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
+          <div class="col-sm-6">
+            <div class="team-member">
+              <img class="mx-auto" style="width: 150px; height: auto;" src="img-sa/mision.png" alt="">
+              <h4 style="color: #A66E24;">Misión Institucional</h4>
+              <div class="col-lg-8 mx-auto text-center">
+              <p class="large text-muted" style="text-align: justify;">“Somos una institución educativa de
+                                          gestión privada, que brinda servicios
+                                          educativos de calidad en los Niveles de
+                                          Educación Inicial, Primaria y Secundaria
+                                          de menores en el distrito de San Juan de
+                                          Lurigancho, promoviendo un estilo
+                                          formativo basado en un modelo
+                                          pedagógico social crítico, de
+                                          investigación, inclusiva, desarrollando
+                                          una cultura ambiental, la práctica de
+                                          valores, gestión de riesgos, de
+                                          convivencia democrática en pro de una
+                                          cultura de paz”.</p>
               </div>
-              <img class="img-responsive" src="imagescrd/portafolio3.jpg" alt="" style="width:100%;height: 230px;">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Rx INTRAORAL Y EXTRAORAL</h4>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img" src="imagescrd/portafolio4.jpg" alt="" style="width:100%;;height: 230px;">
-            </a>
-            <div class="portfolio-caption">
-              <h4>DOCUMENTACIÓN ORTODÓNTICA</h4>
             </div>
           </div>
 
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
+          <div class="col-sm-6">
+            <div class="team-member">
+              <img class="mx-auto" style="width: 150px; height: auto;" src="img-sa/vision.png" alt="">
+              <h4 style="color: #A66E24;">Visión Institucional</h4>
+              <div class="col-lg-8 mx-auto text-center">
+              <p class="large text-muted" style="text-align: justify;">“Ser reconocidos nacional e
+                                          internacionalmente como una Entidad
+                                          Educativa Líder en la formación científica
+                                          y humanística, centrada en la formación
+                                          de valores y el desarrollo de
+                                          competencias que respondan a los altos
+                                          estándares de calidad, mediante procesos
+                                          pedagógicos que reconocen la
+                                          individualidad y promueven la
+                                          autonomía del estudiante, apoyados por
+                                          una comunidad educativa comprometida
+                                          con el mejoramiento institucional y el de
+                                          su entorno”.</p>
               </div>
-              <img class="img-responsive" src="imagescrd/portafolio5.jpg" alt="" style="width:100%;height: 230px;">
-            </a>
-            <div class="portfolio-caption">
-              <h4>FOTOGRAFÍA CLÍNICA</h4>
-
             </div>
           </div>
+
         </div>
       </div>
     </section>
-    <!-- DESCARGA DE ORDEN -->
-    <section class="py-5" id="orden">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">ÓRDENES</h2>
-            <div class="row">
+
+
+
+
+    <!-- Services -->
+  <section class="py-5" id="services">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto" style="width: 150px; height: auto;" src="img-sa/te.png" alt="">
+          <h4 style="color: #A66E24;">Para resolver sus dudas e inquietudes</h4>
           <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Haz click aquí para descargar tu orden</p>
-            <a href="imagescrd/ordencrd.pdf" class="btn btn-primary" onclick="window.open(this.href);return false">
-             Descargar <i class="fa fa-download"></i></a>
+          <p class="large text-muted">----- Teléfono : 387-5469 / WhatsApp : 946 192 081 ----- Email: info@sanagustinsjl.edu.pe Dirección: Av. El Bosque 430 Urb. Canto Rey, San Juan de Lurigancho</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenter1">
+          Leer mas
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="ModalCenter1" tabindex="-1" role="dialog" aria-labelledby="ModalCenter1Title" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ModalLong1Title" style="color: #642529;     padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x); font-weight: bold;">Para resolver sus dudas e inquietudes</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="img-sa/te.png" alt="">
+                  <p>----- Teléfono : 387-5469 / WhatsApp : 946 192 081 ----- Email: info@sanagustinsjl.edu.pe Dirección: Av. El Bosque 430 Urb. Canto Rey, San Juan de LuriganchoS</p>
+                </div>
+                <div class="modal-footer">
+                  <ul class="list-inline social-buttons">
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=51916602775">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+           </div>
           </div>
-          <div class="col-sm-6">
-            <br> <br>
-          <img class="img-fluid" src="imagescrd/orden01.jpg" alt="" style="width:500px;height: 350px;">
-          </div>
-          <div class="col-sm-6">
-            <br> <br>
-          <img class="img-fluid" src="imagescrd/orden2.jpg" alt="" style="width:500px;height: 350px;">
-          </div>
-        </div>
           </div>
         </div>
       </div>
-    </section>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto" style="width: 150px; height: auto;" src="img-sa/infra2.png" alt="">
+          <h4 style="color: #A66E24;">Infraestructura</h4>
+          <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted">Contamos con laboratorios y salas de computo implementados con tecnología de alta calidad, además de piscinas propias semi olímpica e infantil para clases de natación.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenter2">
+          Leer mas
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="ModalCenter2" tabindex="-1" role="dialog" aria-labelledby="ModalCenter2Title" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ModalLong2Title" style="color: #A66E24;">Infraestructura</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="img-sa/infra2.png" alt="">
+                <P>Contamos con laboratorios y salas de computo implementados con tecnología de alta calidad, además de piscinas propias semi olímpica e infantil para clases de natación.</P>
+
+                </div>
+                <div class="modal-footer">
+                  <ul class="list-inline social-buttons">
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=51916602775">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+           </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto" style="width: 150px; height: auto;" src="img-sa/gradu1.png" alt="">
+          <h4 style="color: #A66E24;">Actividades Extracurriculares</h4>
+          <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted">Serás parte de los campeonatos que realizamos entre distintas instituciones, además de diversos eventos y festividades en toda la etapa estudiantil.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenter3">
+          Leer mas
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="ModalCenter3" tabindex="-1" role="dialog" aria-labelledby="ModalCenter3Title" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ModalLong3Title" style="color: #A66E24;">Actividades Extracurriculares</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+
+                  <div class="modal-body">
+                  <img src="img-sa/gradu1.png" alt="">
+                 <p>Serás parte de los campeonatos que realizamos entre distintas instituciones, además de diversos eventos y festividades en toda la etapa estudiantil.</p>
+                </div>
+                <div class="modal-footer">
+                  <ul class="list-inline social-buttons">
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=51916602775">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+           </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
     <!-- Team -->
     <style type="text/css">
 

@@ -78,8 +78,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #A66E24 !important;
+  border-color: #A66E24 !important;
   color: white;
 }
 
@@ -88,12 +88,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #A66E24;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #A66E24;
   text-shadow: none;
 }
 
@@ -139,7 +139,10 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #ffff !important;
+  background-color: #A66E24 !important;
+  border-radius: 15px !important;
+
 }
 
 @media (min-width: 992px) {
@@ -690,12 +693,13 @@ ul.social-buttons li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  color: black;
+  color: write;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #642529;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #A66E24;
+  color: #fff;
 }
