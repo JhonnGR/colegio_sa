@@ -406,337 +406,52 @@ body {margin:0;height:200px;}
   </div>
 </section>
 
+<!-- direcctor-->
+  <section class="py-5" id="services" >
+  <div class="container">
 
+    <div class="row">
 
-
-
-
-    <!-- Team -->
-    <style type="text/css">
-
-  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #8c8888;
-    background-color: #fff;
-border-radius: 15px 20px 0px 0px;
-font-size: 20px;
-  }
-    a {
-     color: #fff;
-}
-a:hover {
-    color: grey;
-}
-
-
-
-</style>
-<section id="sedes">
-    <div  style="background: #59c2e0;margin: 0px 0px;padding: 80px 0px;">
-      <div class="container">
-
-          <h2 class="text-center">Nuestras Sedes</h2>
-  <hr>
-  <!-- Nav pills -->
-  <ul class="nav nav-pills nav-justified" >
-    <li class="nav-item">
-      <a class="nav-link active "  data-toggle="pill" href="#miraflores">Miraflores</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link " data-toggle="pill" href="#molina">La Molina</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link " data-toggle="pill" href="#sjl">San Juan De Lurigancho</a>
-    </li>
-        <li class="nav-item">
-      <a class="nav-link " data-toggle="pill" href="#olivos">Los Olivos</a>
-    </li>
-        <li class="nav-item">
-      <a class="nav-link " data-toggle="pill" href="#sanisidro">San Isidro</a>
-    </li>
-  </ul>
-
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div id="miraflores" class="container tab-pane active" style="background: white;padding: 20px 20px;border-radius: 0px 50px 40px 25px; "><br>
-      <div class="row">
-        <div class="col-sm-4">
-          <h4>Horario de Atención:</h4>
-          <p class="large text-muted"><b>Lunes -Viernes:</b> 9:00 am a 20:00 pm <br>
-          <b>Sabado:</b> 9:00 am a 19:00 pm <br>
-          <b>Teléfono:</b> 01 245-1141 <br>
-          <b>Referencia:</b> Edificio Neptuno <br>Al costado de Saga Falabella <br>
-          <b>Correo:</b>miraflores@centroradiologico.com.pe</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1159.746863112695!2d-77.0300609069859!3d-12.118452555671675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8177b4ceef5%3A0x52b1dfa139f09d35!2sAv.+Jos%C3%A9+Pardo+138%2C+Cercado+de+Lima+15074!5e0!3m2!1ses!2spe!4v1538597918117" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <div class="col-sm-8">
-          <iframe width="100%" height="515" src="https://www.youtube.com/embed/WH8QJntSMsk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <br>
-          <div class="team-member">
-           <ul class="list-inline social-buttons" btn-lg>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=51997890934">
-                    <i class="fa fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
-                    <i class="fa fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto" style="width: 250px; height: auto;" src="img-sa/director.png" alt="">
         </div>
       </div>
 
-    </div>
-    <div id="molina" class="container tab-pane fade" style="background: white;padding: 20px 20px;border-radius: 2px 50px 40px 25px; "><br>
-
-       <div class="row">
-        <div class="col-sm-4">
-          <h4>Horario de Atención:</h4>
-          <p class="large text-muted"><b>Lunes -Viernes:</b> 9:00 am a 20:00 pm <br>
-          <b>Sabado:</b> 9:00 am a 19:00 pm <br>
-          <b>Teléfono:</b> 01 443-4319 <br>
-          <b>Referencia:</b> Centro Comercial La Fontana <br>Av. Javier Prado con Los Frutales <br>
-          <b>Correo:</b> lamolina@centroradiologico.com.pe </p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5146563805265!2d-76.96628368507054!3d-12.07687844574987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6ff54e4e587%3A0x3c19f1e4c5f29f0!2sAv.+Javier+Prado+Este+5250%2C+La+Molina+15023!5e0!3m2!1ses!2spe!4v1538598848021" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <div class="col-sm-8">
-          <iframe width="100%" height="515" src="https://www.youtube.com/embed/SrhvzpJjZ3A?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <br>
-          <div class="team-member">
-           <ul class="list-inline social-buttons" btn-lg>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=51958720825">
-                    <i class="fa fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
-                    <i class="fa fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-        </div>
-      </div>
-    </div>
-    <div id="sjl" class="container tab-pane fade" style="background: white;padding: 20px 20px;border-radius: 2px 0px 40px 25px; "><br>
-        <div class="row">
-        <div class="col-sm-4">
-          <h4>Horario de Atención:</h4>
-          <p class="large text-muted"><b>Lunes -Viernes:</b> 9:00 am a 20:00 pm <br>
-          <b>Sabado:</b> 9:00 am a 19:00 pm <br>
-          <b>Teléfono:</b> 01 651-0256 <br>
-          <b>Referencia:</b> Frente al Casino Mambo <br>
-          <b>Correo:</b> sjl@centroradiologico.com.pe </p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.255828419498!2d-77.00487568507113!3d-12.025900644787221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f0e45b414f%3A0x4f8e7f924ce8e9be!2sAv+Gran+Chim%C3%BA+681%2C+San+Juan+de+Lurigancho+15401!5e0!3m2!1ses!2spe!4v1538600054413" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-
-        <div class="col-sm-8">
-        <iframe width="100%" height="515" src="https://www.youtube.com/embed/uG4A7ctfHco?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <br>
-          <div class="team-member">
-           <ul class="list-inline social-buttons" btn-lg>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=51997891535">
-                    <i class="fa fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
-                    <i class="fa fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-        </div>
-      </div>
-    </div>
-
-        <div id="olivos" class="container tab-pane fade" style="background: white;padding: 20px 20px;border-radius: 2px 0px 40px 25px; "><br>
-        <div class="row">
-        <div class="col-sm-4">
-          <h4>Horario de Atención:</h4>
-          <p class="large text-muted"><b>Lunes -Viernes:</b> 9:00 am a 20:00 pm <br>
-          <b>Sabado:</b> 9:00 am a 19:00 pm <br>
-          <b>Teléfono:</b> 01 682-3694 <br>
-          <b>Referencia:</b> Altura Cdra.13 Antunez de Mayolo <br>
-          <b>Correo:</b> losolivos@centroradiologico.com.pe </p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.70127291821!2d-77.08089224915751!3d-11.995160291460014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce5e2deb7715%3A0x43866187661bff7a!2sAv.%20Antunez%20de%20Mayolo%201290%2C%20Los%20Olivos%2015301!5e0!3m2!1ses!2spe!4v1579095901982!5m2!1ses!2spe" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
-
-
-        </div>
-
-        <div class="col-sm-8">
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/u4py_s0iw5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          <br>
-          <div class="team-member">
-           <ul class="list-inline social-buttons" btn-lg>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=51983779616">
-                    <i class="fa fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
-                    <i class="fa fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="sanisidro" class="container tab-pane fade" style="background: white;padding: 20px 20px;border-radius: 2px 0px 40px 25px; "><br>
-        <div class="row">
-        <div class="col-sm-4">
-          <h4>Horario de Atención:</h4>
-          <p class="large text-muted"><b>Lunes -Viernes:</b> 9:00 am a 20:00 pm <br>
-          <b>Sabado:</b> 9:00 am a 19:00 pm <br>
-          <b>Teléfono:</b> 01 651-0256 <br>
-          <b>Referencia:</b> Frente al Casino Mambo <br>
-          <b>Correo:</b> sjl@centroradiologico.com.pe </p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.255175744918!2d-77.02852168536435!3d-12.0946754914354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c865c73fcfa7%3A0x9df46d4bc80df81a!2sof%2041%2C%20Av.%20Rivera%20Navarrete%20765%2C%20San%20Isidro%2015046!5e0!3m2!1ses!2spe!4v1636149736051!5m2!1ses!2spe" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-
-        <div class="col-sm-8">
-        <center>
-          <div style="width: 80% !important " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" width="100%"  src="img/POP_UP_CRD_SAN_ISIDRO.png" alt="">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" width="100%"  src="img/DSCT_APERTURA.png" alt="">
-              </div>
-
-            </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+      <div class="col-sm-8">
+        <div class="team-member">
+          <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted" style="">“NUESTRA PROPUESTA EDUCATIVA SE SUSTENTA EN LOS PRINCIPIOS DE FORMACIÓN INTEGRAL
+                                                                    Y DE COMPROMISO RECÍPROCO ENTRE LA ESCUELA Y LA FAMILIA CON UN PLAN DE ESTUDIOS
+                                                                    CONTEXTUALIZADO, DEL COLEGIO A LA UNIVERSIDAD, FORMANDO A LOS FUTUROS PROFESIONALES
+                                                                    QUE EL PERÚ NECESITA.”</p>
+          <p class="large text-muted" style=" font-size: 18px;
+                                              text-align: right;
+                                              font-family: Italianno;
+                                              font-weight: 400;
+                                              font-style: normal;">Atte. Félix De La Cruz Moreno.</p>
           </div>
         </div>
-      </center>
-          <br>
-          <div class="team-member">
-           <ul class="list-inline social-buttons" btn-lg>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=51974302430">
-                    <i class="fa fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
-                    <i class="fa fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-        </div>
       </div>
-    </div>
 
+    </div>
   </div>
-      </div>
-
-</div>
 </section>
-     <!-- CASOS-->
-    <!-- Clients -->
 
-       <!-- Contact -->
-    <section class="py-6" id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contáctenos</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <form id="fomr01" action="enviar.php" method="post">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="nombre" name="nombre" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Por favor, introduzca su nombre.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="correo" name="correo" type="text" placeholder="Correo *" required="required" data-validation-required-message="Por favor, introduzca su dirección de correo electrónico.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="celular" name="celular" type="text" placeholder="Teléfono *" required="required" data-validation-required-message="Por favor, introduzca su número de teléfono.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="comentario" name="comentario" placeholder="Tu Mensaje *" required="required" data-validation-required-message="Por favor ingrese un mensaje."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <input id="enviar" class="btn btn-primary btn-xl text-uppercase" name="enviar" type="submit"></input>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+
+
 
     <!-- Footer -->
-    <footer>
-      <div class="container">
+    <footer style="background: #b7b7b7;">
+      <div class="container" >
 
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Centro Radiológico Digital 2018</span>
+            <span class="copyright">Copyright &copy; IEP. SAN AGUSTÍN SJL. 2022</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
+              <li class="list-inline-item" >
                 <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
                   <i class="fa fa-facebook"></i>
                 </a>
@@ -755,180 +470,19 @@ a:hover {
           </div>
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Política de Privacidad</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Términos y Condiciones</a>
-              </li>
+                    <li class="list-inline-item" >
+                                <a href="libroReclamaciones.html">
+                                    <img  src="img-sa/libro3.png" alt="" height="80px">
+                                </a>
+                            </li>
+
             </ul>
           </div>
         </div>
       </div>
     </footer>
 
-    <!-- Portfolio Modals -->
 
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">TOMOGRAFIA CONEBEAM</h2>
-                  <img class="img-fluid d-block mx-auto" src="imagescrd/portafolio1.jpg" alt="">
-                  <img class="img-fluid d-block mx-auto" src="imagescrd/portafolio01.jpg" alt="">
-                  <ul class="list-inline">
-                    <li>Localización/ Ubicación de diente impactado</li>
-                    <li>Implantes</li>
-                    <li>Evaluación de área patológica</li>
-                    <li>ATM</li>
-                    <li>Senos Paranasales, Senos Maxilares</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    CERRAR</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">RAYOS X DIGITAL</h2>
-                  <img class="col-lg-8 d-block mx-auto" src="imagescrd/portafolio2.jpg" alt="" >
-                  <img class="col-lg-8 d-block mx-auto" src="imagescrd/portafolio02.jpg" alt="">
-                  <ul class="list-inline">
-                    <li>Panorámica</li>
-                    <li>Lateral</li>
-                    <li>Frontal</li>
-                    <li>Carpal</li>
-                    <li>ATM</li>
-                    <li>Senos Maxilares</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    CERRAR</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">RAYOS X PERIAPICAL</h2>
-                  <img class="img-fluid d-block mx-auto" src="imagescrd/portafolio3.jpg" alt="">
-                  <ul class="list-inline">
-                    <li>Rayos X Periapicales</li>
-                    <li>Intraorales</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    CERRAR</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">DOCUMENTACIÓN ORTODÓNTICA</h2>
-                  <img class="img-fluid d-block mx-auto" src="imagescrd/portafolio4.jpg" alt="">
-                    <li>Servicio de documentación Ortodóntica</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    CERRAR</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">SERVICIO DE FOTOGRAFÍA CLÍNICA</h2>
-                  <img class="img-fluid d-block mx-auto" src="imagescrd/portafolio5.jpg" alt="">
-                  <ul class="list-inline">
-                    <li>Servicio de fotorgafía Clínica Dental, según los parametros indicados ideales para seguimientos de tratamientos, y demas.</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    CERRAR</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

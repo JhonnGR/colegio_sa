@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Reclamaciones</title>
+    <link rel="icon" href="img/logo.png">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <script src="https://kit.fontawesome.com/fd7be7c1fb.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom styles for windows emergent -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- PAQUETE DE ESTILOS DE SLIDER -->
+    <link href="css/slider.css" rel="stylesheet" type="text/css" />
+
+
+
+
+  </head>
+
+  <body id="page-top">
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark " id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo-membrete.png" width="300" height="70"/></a>
+        <div class="row">
+
+          <div class="col-md-8 col-sm-12 mx-auto">
+
+              <p> <b>LIBRO DE RECLAMACIONES VIRTUAL</b> <br>
+                Conforme a lo establecido en el Código de Protección y Defensa del Consumidor,
+                esta institución cuenta con un Libro de Reclamaciones Virtual a su disposición.</p>
+
+
+          </div>
+
+          <div class="col-md-4 col-sm-12 mx-auto">
+            <center>
+              <a href="index.php" class="btn btn-primary btn-lg" ><i class="fas fa-undo-alt"></i> Regresar...</a>
+            </center>
+
+          </div>
+      </div>
+
+      </div>
+    </nav>
+
+
+<div class="container">
+   <!-- DATOS DEL PADRE-->
+
+<section class="" style="padding-top:50px">
+
+<div class="container bg-light" style="padding-top:50px" > <h1 class="text-center " style="font-family: 'Acme', sans-serif;" >Formulario de Reclamación</h1><hr>
+
+<form action="enviartrabajo.php"  method="post" name="formulario" id="formulario" enctype="multipart/form-data"  style="margin: 20px 20px;padding-bottom: 30px;">
+<div class="form-row">
+    <h4 class="text-center " style="font-family: 'Acme', sans-serif;" ><u>Identificación del Padre y/o Apoderado</u></h4> <br>
+  <div class="col-md-12 mb-3">
+
+  </div>
+  <div class="col-md-6 mb-3">
+    <label  for="validationTooltip01">Nombres</label>
+    <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Ingrese sus nombres..." required>
+
+  </div>
+  <div class="col-md-6 mb-3">
+    <label for="validationTooltip02">Apellidos</label>
+    <input type="text" class="form-control" placeholder="Ingrese sus apellidos..." name="Apellido" id="Apellido" required>
+
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <label for="validationTooltip03">DNI</label>
+    <input type="text" class="form-control" name="DNI" id="DNI" placeholder="N° Documento De Identidad" required>
+
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <label for="validationTooltip05">Fecha Nacimiento</label>
+    <input type="date" class="form-control" name="fecha_de_nacimiento" id="fecha_de_nacimiento" value="0000-00-00" required>
+
+
+</div>
+
+<div class="col-md-4 mb-3">
+  <label for="validationTooltip05">Celular</label>
+  <input type="text" class="form-control" name="celular" id="celular" placeholder="999 999 999" required>
+
+</div>
+  <div class="col-md-6 mb-3">
+    <label for="validationTooltip03">Correo Electronico</label>
+    <input type="text" class="form-control" name="correo" id="correo" placeholder="ejemplo@gmail.com" required>
+
+  </div>
+    <div class="col-md-6 mb-3">
+
+      <div class="form-group">
+    <label for="sel1">Domicilio</label>
+    <input type="text" class="form-control" name="grado_academico" id="grado_academico" placeholder=" Grado Academico" required>
+
+  </div>
+  </div>
+<!--DETALLE DEL RECLAMO-->
+  <div class="form-row">
+      <h4 class="text-center " style="font-family: 'Acme', sans-serif;" ><u>Detalle del reclamo y/o pedido del Padre y/o Apoderado</u></h4> <br>
+    <div class="col-md-12 mb-3">
+
+    </div>
+    <div class="col-md-12 mb-3">
+      <div class="form-group">
+        <label for="sel">Tipo de Reclamación</label>
+        <select class="form-control" id="reclamo" name="reclamo">
+            <option>Seleccione tipo de reclamo...</option>
+         <option value="Queja">Queja</option>
+          <option value="Reclamo">Reclamo</option>
+          <option value="Recomendacion">Recomendación</option>
+        </select>
+      </div>
+
+    </div>
+
+
+    <div class=" col-md-12 mb-3">
+    <label for="validationTextarea">Descripción</label>
+    <textarea class="form-control " name="descripcion" id="descripcion" placeholder="Ingrese su descripción" ></textarea>
+
+  </div>
+
+  <div class=" col-md-12 mb-3">
+  <label for="validationTextarea">Pedido</label>
+  <textarea class="form-control " name="descripcion" id="descripcion" placeholder="Ingrese su descripción" ></textarea>
+  </div>
+
+</div>
+<br>
+
+<!--DETALLE DEL RECLAMO-->
+  <div class="form-row">
+      <h4 class="text-center " style="font-family: 'Acme', sans-serif;" ><u>Observaciones y acciones tomadas por la Entidad Educativa.</u></h4> <br>
+    <div class="col-md-12 mb-3">
+
+    </div>
+    <div class="col-md-12 mb-3">
+    <p>La respuesta a la presente será atendida mediante correo electrónico a
+      la dirección que usted ha consignado en el presente formulario de reclamación.</p>
+    </div>
+
+
+    <div class=" col-md-12 mb-3">
+
+
+  </div>
+
+
+</div>
+
+<center>
+   <input class="btn btn-primary" type="submit" value="Enviar Reclamo">
+</center>
+</form>
+
+</div>
+
+</section>
+</div>
+<footer style="background: #b7b7b7;">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright © Centro Radiológico Digital 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=51916602775">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  </body>
+
+
+
+
+</html>

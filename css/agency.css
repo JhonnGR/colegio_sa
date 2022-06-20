@@ -73,8 +73,8 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #A66E24;
+  border-color: #A66E24;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -84,7 +84,7 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(166, 110, 36, 0) !important;
 }
 
 ::-moz-selection {
