@@ -35,7 +35,7 @@
 
     <!-- Custom styles for windows emergent -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
+   <link href="css/slider.css" rel="stylesheet">
     <!-- PAQUETE DE ESTILOS DE SLIDER -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -58,7 +58,7 @@
 
             <li class="nav-item">
               <a style="color: #642529;font-family: 'Work Sans', sans-serif;font-size: 15px;
-              " class="nav-link js-scroll-trigger" href="#sedes"><i class="fas fa-home"></i> <strong>Inicio</strong></a>
+              " class="nav-link js-scroll-trigger" href="index.php"><i class="fas fa-home"></i> <strong>Inicio</strong></a>
               <li class="nav-item">
 
             <li class="nav-item">
@@ -89,13 +89,11 @@
 
 
 <body>
+  <section>
   <div class="container">
   <div class="row align-items-start">
     <div class="col">
-      <h2 style="font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 80px;
-    margin-left: 20px;">Educacion Inicial</h2>
+      <h2>Educacion Inicial</h2>
      <div class="text-justify">
      <p>A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.<br></p>
      <p>En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y expresar con mayor seguridad sus emociones, y a regularlas progresivamente con el acompañamiento del docente. A medida que fortalecen estos aspectos desarrollan sus habilidades sociales, aprenden a convivir con los demás y a cuidar los espacios y recursos comunes que utilizan.<br></p>
@@ -114,11 +112,43 @@
 </div>
 </div>
 <div class="col">
-  <img src="img/1.jpg" class="img-fluid" alt="...">
+  <div class="slider">    
+ <div class="col">
+      <?php
+              $ids = array(1,2,3,4,5);
+              $alt = array(
+                  "Slide 1",
+                  "Slide 2",
+                  "Slide 3",
+                  "Slide 4",
+                  "Slide 5"
+              );
+              $max = count($ids);
+              for($s=0;$s<$max;$s++){ ?>
+                  <input type="radio" id="<?= $ids[$s]; ?>" name="image-slide" hidden />
+          <?php } ?>
+    <div class="slideshow">
+              <?php for($s=0;$s<$max;$s++){ ?>
+              <div class="item-slide">
+                  <img src="img/<?= $ids[$s]; ?>.jpg" alt="<?= $alt[$s]; ?>" />
+              </div>
+              <?php } ?>
+          </div>
+     <div class="pagination">
+              <?php for($s=0;$s<$max;$s++){ ?>
+              <label class="pag-item" for="<?= $ids[$s]; ?>">
+                  <img src="img/<?= $ids[$s]; ?>.jpg" alt="<?= $alt[$s]; ?>" />
+              </label>
+              <?php } ?>
+          </div>
+    </div>
+    
+  </div>
 
 </div>
 </div>
 </div>
+</section>  
 </body>
 
 <footer>
