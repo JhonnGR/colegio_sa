@@ -88,20 +88,18 @@
     </nav>
 
 
-<div class="container">
- <section>
-<h2 style="font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 20px;"> EDUDACION INICIAL</h2> 
+<body>
+  <div class="container">
   <div class="row align-items-start">
-    <div style="text-align: justify;" class="col">
-     <p >A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.<br>
-     </p>
-     <p>En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y expresar con mayor seguridad sus emociones, y a regularlas progresivamente con el acompañamiento del docente. A medida que fortalecen estos aspectos desarrollan sus habilidades sociales, aprenden a convivir con los demás y a cuidar los espacios y recursos comunes que utilizan.<br>
-     </p>
-     <p>De igual manera, aprenden a respetar y a construir acuerdos y normas de convivencia. En el proceso de su desarrollo psicomotriz, los niños y las niñas viven su cuerpo a través de la libre exploración y experimentación de sus movimientos, posturas, desplazamientos y juegos, en interacción permanente con su entorno y ambiente.<br>
-     </p>
+    <div class="col">
+      <h2 style="font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    margin-left: 20px;">Educacion Inicial</h2>
+     <div class="text-justify">
+     <p>A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.<br></p>
+     <p>En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y expresar con mayor seguridad sus emociones, y a regularlas progresivamente con el acompañamiento del docente. A medida que fortalecen estos aspectos desarrollan sus habilidades sociales, aprenden a convivir con los demás y a cuidar los espacios y recursos comunes que utilizan.<br></p>
+     <p>De igual manera, aprenden a respetar y a construir acuerdos y normas de convivencia. En el proceso de su desarrollo psicomotriz, los niños y las niñas viven su cuerpo a través de la libre exploración y experimentación de sus movimientos, posturas, desplazamientos y juegos, en interacción permanente con su entorno y ambiente.<br></p>
      <ul class="list-unstyled">
       <li>En “San Agustín» encontrarás:
     <ul>
@@ -113,32 +111,16 @@
     </ul>
   </li>
 </ul>
-
-    </div>
-  <div class="col" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-     <img src="img/1.jpg" class="d-block w-100" alt=" ">
-    </div>
-      <div class="carousel-item">
-     <img src="img/2.jpg" class="d-block w-100" alt=" ">
-    </div>
-    <div class="carousel-item">
-     <img src="img/inicial2.jpg" class="d-block w-100" alt=" ">
-    </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-  </div>
-  </div>
-</section>
 </div>
+</div>
+<div class="col">
+  <img src="img/1.jpg" class="img-fluid" alt="...">
+
+</div>
+</div>
+</div>
+</body>
+
 <footer>
       <div class="container">
 
