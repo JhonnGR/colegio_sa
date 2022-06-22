@@ -15,6 +15,7 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
 
+
     <script src="https://kit.fontawesome.com/fd7be7c1fb.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
@@ -148,8 +149,34 @@
 </div>
 </div>
 </div>
+<div class="container text-center">
+  <div class="team-member">
+    <img class="mx-auto" style="width: 100px; height: auto;" class="img-fluid" src="img-sa/graduate-cap.png" alt="">
+  </div>
+
+</div>
 </section>  
 </body>
+
+<section id="service-inicial">
+  <div class="container">
+    <div class="row ">
+      <div class="col align-self-start">
+          
+              
+            
+            </div>
+      <div class="col">
+        
+      </div>
+      <div class="col">
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 <footer>
       <div class="container">
