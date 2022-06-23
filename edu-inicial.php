@@ -88,8 +88,6 @@
       </div>
     </nav>
 
-
-<body>
   <section>
   <div class="container">
   <div class="row align-items-start">
@@ -152,31 +150,30 @@
 <div class="container text-center">
   <div class="team-member">
     <img class="mx-auto" style="width: 100px; height: auto;" class="img-fluid" src="img-sa/graduate-cap.png" alt="">
+    
   </div>
 
 </div>
-</section>  
-</body>
-
-<section id="service-inicial">
-  <div class="container">
-    <div class="row ">
-      <div class="col align-self-start">
-          
-              
-            
-            </div>
-      <div class="col">
-        
-      </div>
-      <div class="col">
-        
-      </div>
-    </div>
-
-  </div>
 </section>
 
+<section id="informacion" style="margin-top: -330px;">
+  <div class="container">
+  <div class="row align-items-start">
+    <div class="col" >
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+</div>
+</div>
+</div>
+
+
+</section>
 
 <footer>
       <div class="container">
