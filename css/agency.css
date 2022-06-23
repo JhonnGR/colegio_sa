@@ -105,6 +105,7 @@ img::-moz-selection {
   background: transparent;
 }
 
+
 #mainNav {
   background-color:#f8f9fa;
 }
@@ -144,6 +145,7 @@ img::-moz-selection {
   border-radius: 15px !important;
 
 }
+
 
 @media (min-width: 992px) {
   #mainNav {

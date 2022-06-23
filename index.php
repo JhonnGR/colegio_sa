@@ -30,7 +30,10 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/barra.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href='css/agency.css' rel='stylesheet'>
 
     <!-- Custom styles for windows emergent -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -43,49 +46,73 @@
   </head>
 
   <body id="page-top">
+    <!--barra de menu-->
+    <nav>
+        <div class="navbar">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand" href="#Inicio">
-          <img src="img/logo-membrete.png" width="230" height="60"/></a>
-        <button class="navbar-toggler navbar-toggler-rigth" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav  ml-auto">
-
-            <li class="nav-item">
-              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
-              .hover{ color: black;}" class="nav-link js-scroll-trigger" href="#sedes"><i class="fas fa-home"></i> <strong>Inicio</strong></a>
-              <li class="nav-item">
-
-            <li class="nav-item">
-              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+          <div class="logo"><a href="index.php"><img src="img/logo-membrete.png" width="230" height="60"/></a></div>
+          <button class=" bx-menu2" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="nav-links">
+            <div class="sidebar-logo">
+              <span class="logo-name" style="Color: #000">CodingLab</span>
+              <i class='bx bx-x' ></i>
+            </div>
+            <ul class="links">
+              <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              " class="nav-link js-scroll-trigger" href="#sedes"><i class="fas fa-home"></i> <strong>Inicio</strong></a></li>
+              <li>
+                <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
               " class="nav-link js-scroll-trigger" href="#portfolio"><i class="fas fa-list-alt"></i> <strong>Servicios</strong></a>
-            </li>
-
-            <li class="nav-item">
-              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a href="#">Web Design</a></li>
+                  <li><a href="#">Login Forms</a></li>
+                  <li><a href="#">Card Design</a></li>
+                  <li class="more">
+                    <span><a href="#">More</a>
+                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                  </span>
+                    <ul class="more-sub-menu sub-menu">
+                      <li><a href="#">Neumorphism</a></li>
+                      <li><a href="#">Pre-loader</a></li>
+                      <li><a href="#">Glassmorphism</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
               " class="nav-link js-scroll-trigger" href="#sedes"><i class="fas fa-map-marked-alt"></i> <strong>Infraestructura</strong></a>
-              <li class="nav-item">
-              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
-              " class="nav-link js-scroll-trigger" href="cita.html"><i class="fas fa-address-card"></i> <strong>Citas/Consultas</strong></a>
-            </li>
-            <li class="nav-item">
-              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
-              " class="nav-link js-scroll-trigger" href="software/view/index.php"><i class="fas  fa-folder"></i> <strong>Documentos</strong></a>
-            </li>
-            <li class="nav-item">
-              <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
-              " class="nav-link js-scroll-trigger" href="https://sanagustinsjl.cubicol.pe/principal/login"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
-            </li>
+                <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                <ul class="js-sub-menu sub-menu">
+                  <li><a href="#">Dynamic Clock</a></li>
+                  <li><a href="#">Form Validation</a></li>
+                  <li><a href="#">Card Slider</a></li>
+                  <li><a href="#">Complete Website</a></li>
+                </ul>
+              </li>
+              <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              " class="nav-link js-scroll-trigger" href="cita.html"><i class="fas fa-address-card"></i> <strong>Citas/Consultas</strong></a></li>
+              <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              " class="nav-link js-scroll-trigger" href="software/view/index.php"><i class="fas  fa-folder"></i> <strong>Documentos</strong></a></li>
+              <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              " class="nav-link js-scroll-trigger" href="https://sanagustinsjl.cubicol.pe/principal/login"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a></li>
+            </ul>
+            <hidden class="search-box">
 
-          </ul>
+            </hidden>
+          </div>
+
         </div>
-      </div>
-    </nav>
+      </nav>
+
+
+
+
+
 <style>
 body {margin:0;height:200px;}
 
@@ -497,7 +524,8 @@ body {margin:0;height:200px;}
     <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
+    <script src="js/barra.js"></script>
+
 
 
 
