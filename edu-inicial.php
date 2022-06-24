@@ -150,29 +150,53 @@
 <div class="container text-center">
   <div class="team-member">
     <img class="mx-auto" style="width: 100px; height: auto;" class="img-fluid" src="img-sa/graduate-cap.png" alt="">
-    
   </div>
-
 </div>
 </section>
 
 <section id="informacion" style="margin-top: -330px;">
-  <div class="container">
-  <div class="row align-items-start">
-    <div class="col" >
-      One of three columns
-    </div>
-    <div class="col">
-      One of three columns
-    </div>
-    <div class="col">
-      One of three columns
-    </div>
-</div>
-</div>
-</div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="team-member">
+      <img class="mx-auto" style="width: 200px; height: auto;" src="img/universidad.png" alt="">
+      <h4 style="color: #A66E24;">Infraestructura</h4>
+      <div class="col-lg-4 mx-auto text-center">
 
+      </div>
+</div>
+</div>
+    <div class="col-md-4">
+    <img class="mx-auto" style="width: 200px; height: auto;" src="img/inicial.jpg" alt="">  
+    </div>
+</div>
+<div class="row">
+<div class="col-md-4">
+    <img class="mx-auto" style="width: 200px; height: auto;" src="img/inicial.jpg" alt="">  
+    </div>
+<div class="col-sm-4">
+      <div class="team-member">
+      <img class="mx-auto" style="width: 200px; height: auto;" src="img/que-habla.png" alt="">
+      <h4 style="color: #A66E24;">Socializacion</h4>
+      <div class="col-lg-8 mx-auto text-center">
 
+      </div>
+    </div>
+    </div>
+</div>
+<div class="row">
+ <div class="col-sm-4">
+      <div class="team-member">
+      <img class="mx-auto" style="width: 200px; height: auto;" src="img/mochila.png" alt="">
+      <h4 style="color: #A66E24;">Utiles Escolares</h4>
+      <div class="col-lg-8 mx-auto text-center">
+
+      </div>
+    </div>
+    </div>
+  <div class="col-md-4">
+    <img class="mx-auto" style="width: 200px; height: auto;" src="img/inicial.jpg" alt="">  
+    </div>
+    </div>
 </section>
 
 <footer>
