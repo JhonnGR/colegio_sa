@@ -70,6 +70,12 @@
     scroll-behavior: smooth;
   }
 }
+@media (max-width:1160px){
+  :root {
+    scroll-behavior: smooth;
+    margin-top: -60px;
+  }
+}
 
 body {
   margin: 0;

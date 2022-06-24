@@ -47,72 +47,69 @@
 
   <body id="page-top">
     <!--barra de menu-->
-    <!-- header start -->
-    <div class="header ">
-       <div class="container">
-          <div class="header-main">
-             <div class="logo">
-                <a href="index.php"><img src="img/logo-membrete.png" width="230" height="60"/></a>
-             </div>
+    <nav>
+        <div class="navbar">
 
-             <button class=" open-nav-menu" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu 
-                <i class="fa fa-bars"></i>
-              </button>
-             <div class="menu-overlay">
-             </div>
-             <!-- navigation menu start -->
-             <nav class="nav-menu">
-               <div class="close-nav-menu">
-                  <img src="img/close.svg" alt="close">
-               </div>
-               <ul class="menu">
-                  <li class="menu-item menu-item-has-children" style="margin-top: 21px;">
-                     <a href="#" data-toggle="sub-menu" style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;">Home <i class="plus"></i></a>
-                     <ul class="sub-menu">
-                         <li class="menu-item"><a href="#">Home 1</a></li>
-                         <li class="menu-item"><a href="#">Home 2</a></li>
-                         <li class="menu-item"><a href="#">Home 3</a></li>
-                         <li class="menu-item"><a href="#">Home 4</a></li>
-                     </ul>
-                  </li>
-                  <li class="menu-item">
-                     <a href="#">About</a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="#">Services</a>
-                  </li>
-                  <li class="menu-item menu-item-has-children">
-                     <a href="#" data-toggle="sub-menu">Pages <i class="plus"></i></a>
-                     <ul class="sub-menu">
-                         <li class="menu-item"><a href="#">page 1</a></li>
-                         <li class="menu-item"><a href="#">page 2</a></li>
-                         <li class="menu-item"><a href="#">page 3</a></li>
-                         <li class="menu-item"><a href="#">page 4</a></li>
-                     </ul>
-                  </li>
-                  <li class="menu-item">
-                     <a href="#">News</a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="#">Contact</a>
-                  </li>
-               </ul>
-             </nav>
-             <!-- navigation menu end -->
+          <div class="logo"><a href="index.php"><img src="img/logo-membrete.png" width="230" height="60"/></a></div>
+          <button class=" bx-menu2" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="nav-links">
+            <div class="sidebar-logo">
+              <span class="logo-name" style="Color: #000"><a href="index.php"><img src="img/logo-membrete.png" width="230" height="60"/></a></span>
+              <i class='bx bx-x' ></i>
+            </div>
+            <ul class="links">
+              <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              " class="nav-link js-scroll-trigger" href="#sedes"><i class="fas fa-home"></i> <strong>Inicio</strong></a></li>
+              <li>
+                <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              " class="nav-link js-scroll-trigger" href="#portfolio"><i class="fas fa-list-alt"></i> <strong>Servicios</strong></a>
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+                " href="#">Web Design</a></li>
+                  <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+                " href="#">Login Forms</a></li>
+                  <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+                " href="#">Card Design</a></li>
+                </ul>
+              </li>
+              <li>
+                <a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              " class="nav-link js-scroll-trigger" href="#"><i class="fas fa-list-alt"></i> <strong>Servicios</strong></a>
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+                " href="#">Web Design</a></li>
+                  <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+                " href="#">Login Forms</a></li>
+                  <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+                " href="#">Card Design</a></li>
+                </ul>
+              </li>
+              <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              " class="nav-link js-scroll-trigger" href="cita.html"><i class="fas fa-address-card"></i> <strong>Citas/Consultas</strong></a></li>
+              <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              " class="nav-link js-scroll-trigger" href="software/view/index.php"><i class="fas  fa-folder"></i> <strong>Documentos</strong></a></li>
+              <li><a style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;
+              " class="nav-link js-scroll-trigger" href="https://sanagustinsjl.cubicol.pe/principal/login"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a></li>
+            </ul>
+            <hidden class="search-box">
+
+            </hidden>
           </div>
-       </div>
-    </div>
-    <!-- header end -->
+
+        </div>
+      </nav>
 
 
 
 
 
 <style>
-body {
-  margin:0;
-}
+body {margin:0;height:200px;}
 
 .icon-bar {
   position: fixed;
@@ -148,40 +145,41 @@ body {
   color: white;
 }
 </style>
+<body>
 
-  <!-- Header -->
-<div  class="movile">
-    <div class="slider">
-        <?php
-            $ids = array(1,2,3,4,5);
-            $alt = array(
-                "Slide 1",
-                "Slide 2",
-                "Slide 3",
-                "Slide 4",
-                "Slide 5"
-            );
-            $max = count($ids);
-            for($s=0;$s<$max;$s++){ ?>
-                <input type="radio" id="<?= $ids[$s]; ?>" name="image-slide" hidden />
-        <?php } ?>
-        <div class="slideshow">
-            <?php for($s=0;$s<$max;$s++){ ?>
-            <div class="item-slide">
-                <img src="img/<?= $ids[$s]; ?>.jpg" alt="<?= $alt[$s]; ?>" />
-            </div>
-            <?php } ?>
-        </div>
-        <div class="pagination">
-            <?php for($s=0;$s<$max;$s++){ ?>
-            <label class="pag-item" for="<?= $ids[$s]; ?>">
-                <img src="img/<?= $ids[$s]; ?>.jpg" alt="<?= $alt[$s]; ?>" />
-            </label>
-            <?php } ?>
-        </div>
-    </div>
-</div>
+    <!-- Header -->
+    <header class="masthead" style="margin-top: 120px;">
 
+      <div class="slider">
+          <?php
+              $ids = array(1,2,3,4,5);
+              $alt = array(
+                  "Slide 1",
+                  "Slide 2",
+                  "Slide 3",
+                  "Slide 4",
+                  "Slide 5"
+              );
+              $max = count($ids);
+              for($s=0;$s<$max;$s++){ ?>
+                  <input type="radio" id="<?= $ids[$s]; ?>" name="image-slide" hidden />
+          <?php } ?>
+          <div class="slideshow">
+              <?php for($s=0;$s<$max;$s++){ ?>
+              <div class="item-slide">
+                  <img src="img/<?= $ids[$s]; ?>.jpg" alt="<?= $alt[$s]; ?>" />
+              </div>
+              <?php } ?>
+          </div>
+          <div class="pagination">
+              <?php for($s=0;$s<$max;$s++){ ?>
+              <label class="pag-item" for="<?= $ids[$s]; ?>">
+                  <img src="img/<?= $ids[$s]; ?>.jpg" alt="<?= $alt[$s]; ?>" />
+              </label>
+              <?php } ?>
+          </div>
+      </div>
+    </header>
     <!-- Descripción-->
       <section class="py-5" id="services">
       <div class="container">

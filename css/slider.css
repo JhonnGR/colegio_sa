@@ -11,7 +11,11 @@ body, html, div, img{
     position: relative;
     overflow: hidden;
 }
+
 .slider img{ max-width: 100%; }
+@media (max-width:1160px){
+
+}
 .slideshow{
     display: flex;
     transform: translate3d(0, 0, 0);
