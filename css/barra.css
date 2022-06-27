@@ -69,10 +69,13 @@ a{
 	display: block;
 	padding: 12px 0;
 	font-size: 16px;
-	color: #000000;
+	color: #A66E24;
 	text-transform: capitalize;
 	font-weight: 600;
 	transition: all 0.3s ease;
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: none !important;
+
 }
 .header .menu > .menu-item > a .plus{
 	display: inline-block;
@@ -89,7 +92,7 @@ a{
 	box-sizing: border-box;
 	left: 50%;
 	top:50%;
-	background-color: #000000;
+	background-color: #A66E24;
 	height: 2px;
 	width: 100%;
 	transform: translate(-50%,-50%);
@@ -97,14 +100,14 @@ a{
 }
 .header .menu > .menu-item:hover > a .plus:before,
 .header .menu > .menu-item:hover > a .plus:after{
-   background-color: #e91e63;
+   background-color: #642529;
 }
 .header .menu > .menu-item > a .plus:after{
    transform: translate(-50%,-50%) rotate(-90deg);
 }
 .header .menu > .menu-item > .sub-menu > .menu-item > a:hover,
 .header .menu > .menu-item:hover > a{
-	color: #e91e63;
+	color: #642529;
 }
 .header .menu > .menu-item > .sub-menu{
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -114,7 +117,7 @@ a{
 	top:100%;
 	background-color: #ffffff;
 	padding: 10px 0;
-	border-top: 3px solid #e91e63;
+	border-top: 3px solid #642529;
 	transform: translateY(10px);
 	transition: all 0.3s ease;
 	opacity:0;
@@ -141,9 +144,12 @@ a{
 	padding: 10px 20px;
 	font-size: 16px;
 	font-weight: 600;
-	color: #000000;
+	color: #A66E24;
 	transition: all 0.3s ease;
 	text-transform: capitalize;
+	text-decoration: none !important;
+  border-top: 1px solid #dfdfdf;
+	font-family: 'Work Sans', sans-serif;
 }
 .header .open-nav-menu{
 	height: 34px;
@@ -235,10 +241,11 @@ a{
 		height: 100%;
 		top:0;
 		overflow-y: auto;
-		background-color: #222222;
+		background-color: #dee2e6;
 		z-index: 1000;
 		padding: 15px 0;
 		transition: all 0.5s ease;
+		color: #642529;
 	}
 	.header .nav-menu.open{
 		visibility: visible;
@@ -254,16 +261,16 @@ a{
 		align-items: center;
 	}
 	.header .menu > .menu-item > a{
-		color: #ffffff;
+		color: #A66E24;
 		padding: 12px 15px;
-		border-bottom: 1px solid #333333;
+		border-bottom: 1px solid #ffffff;
 	}
 	.header .menu > .menu-item:first-child > a{
-	    border-top: 1px solid #333333;
+	    border-top: 1px solid #ffffff;
 	}
 	.header .menu > .menu-item > a .plus:before,
 	.header .menu > .menu-item > a .plus:after{
-		background-color: #ffffff;
+		background-color: #A66E24;
 	}
 	.header .menu > .menu-item-has-children.active > a .plus:after{
         transform: translate(-50%,-50%) rotate(0deg);
@@ -285,8 +292,10 @@ a{
 	}
 	.header .menu > .menu-item > .sub-menu > .menu-item > a{
 		padding: 12px 45px;
-		color: #ffffff;
-		border-bottom: 1px solid #333333;
+		color: #A66E24;
+		border-bottom: 1px solid #ffffff;
+		text-decoration: none !important;
+
 	}
 	.header .close-nav-menu,
 	.header .open-nav-menu{

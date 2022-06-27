@@ -56,8 +56,8 @@
              </div>
 
              <button class=" open-nav-menu" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu 
-                <i class="fa fa-bars"></i>
+                  <strong>Menu</strong>
+                 <i class="fa fa-bars"></i>
               </button>
              <div class="menu-overlay">
              </div>
@@ -67,35 +67,41 @@
                   <img src="img/close.svg" alt="close">
                </div>
                <ul class="menu">
+                 <li class="menu-item">
+                    <a href="index.php"> <i class="fas fa-home"></i> Inicio</a>
+                 </li>
                   <li class="menu-item menu-item-has-children" style="margin-top: 21px;">
-                     <a href="#" data-toggle="sub-menu" style="color: #A66E24;font-family: 'Work Sans', sans-serif;font-size: 15px;">Home <i class="plus"></i></a>
+
+                     <a href="#" data-toggle="sub-menu"><i class="fas fa-list-alt"></i> Servicios <i class="plus"></i></a>
                      <ul class="sub-menu">
-                         <li class="menu-item"><a href="#">Home 1</a></li>
-                         <li class="menu-item"><a href="#">Home 2</a></li>
-                         <li class="menu-item"><a href="#">Home 3</a></li>
-                         <li class="menu-item"><a href="#">Home 4</a></li>
+                         <li class="menu-item"><a href="edu-inicial.php">Educación Inicial</a></li>
+                         <li class="menu-item"><a href="#">Educación Primaria</a></li>
+                         <li class="menu-item"><a href="#">Educación Secundaria</a></li>
                      </ul>
-                  </li>
-                  <li class="menu-item">
-                     <a href="#">About</a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="#">Services</a>
                   </li>
                   <li class="menu-item menu-item-has-children">
-                     <a href="#" data-toggle="sub-menu">Pages <i class="plus"></i></a>
+                     <a href="#" data-toggle="sub-menu"><i class="fas fa-map-marked-alt"></i> <strong>Infraestructura</strong> <i class="plus"></i></a>
                      <ul class="sub-menu">
-                         <li class="menu-item"><a href="#">page 1</a></li>
-                         <li class="menu-item"><a href="#">page 2</a></li>
-                         <li class="menu-item"><a href="#">page 3</a></li>
-                         <li class="menu-item"><a href="#">page 4</a></li>
+                         <li class="menu-item"><a href="#">Plana Docente</a></li>
+                         <li class="menu-item"><a href="#">Piscina</a></li>
+                         <li class="menu-item"><a href="#">Laboratorio</a></li>
+                         <li class="menu-item"><a href="#">Movilidad</a></li>
+                         <li class="menu-item"><a href="#">Sala de Computo</a></li>
+                         <li class="menu-item"><a href="#">Cancha deportiva</a></li>
+                         <li class="menu-item"><a href="#">Juego recreativos de Inicial</a></li>
                      </ul>
                   </li>
                   <li class="menu-item">
-                     <a href="#">News</a>
+                     <a href="#"><i class="fas fa-address-card"></i> <strong>Consultas</strong> </a>
                   </li>
                   <li class="menu-item">
-                     <a href="#">Contact</a>
+                     <a href="#"><i class="fas  fa-folder"></i> <strong>Documentos</strong></a>
+                  </li>
+                  <li class="menu-item">
+                     <a href="#"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
+                  </li>
+                  <li class="menu-item">
+                     <a href="#"><i class="fas  fa-gears"></i> <strong>Soporte</strong></a>
                   </li>
                </ul>
              </nav>
