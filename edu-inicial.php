@@ -155,48 +155,85 @@
 </section>
 
 <section id="informacion" style="margin-top: -330px;">
-  <div class="row">
+  <div class="container">
+  <div class="row justify-content-start">
     <div class="col-md-4">
       <div class="team-member">
       <img class="mx-auto" style="width: 200px; height: auto;" src="img/universidad.png" alt="">
       <h4 style="color: #A66E24;">Infraestructura</h4>
-      <div class="col-lg-4 mx-auto text-center">
+</div>
+</div>
+    <div class="col-md-8 clearfix">
+    <img class="mx-auto col-md-8 float-md-end mb-3 ms-md-3" style="width: 500px; height: auto;" src="img/inicial.jpg" alt="">  
+    <p>
+    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+  </p>
 
-      </div>
-</div>
-</div>
-    <div class="col-md-4">
-    <img class="mx-auto" style="width: 200px; height: auto;" src="img/inicial.jpg" alt="">  
+  <p>
+    As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+  </p>
+
+  <p>
+    And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+  </p>
     </div>
 </div>
-<div class="row">
-<div class="col-md-4">
-    <img class="mx-auto" style="width: 200px; height: auto;" src="img/inicial.jpg" alt="">  
+</div>
+</section>
+
+<section>
+  <div class="container">
+<div class="row justify-content-start">
+<div class="col-md-8 clearfix">
+    <img class="mx-auto col-md-8 float-md-start mb-3 ms-md-3" style="width: 500px; height: auto;" src="img/inicial.jpg" alt="">
+    <p>
+    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+  </p>
+
+  <p>
+    As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+  </p>
+
+  <p>
+    And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+  </p>
     </div>
 <div class="col-sm-4">
       <div class="team-member">
       <img class="mx-auto" style="width: 200px; height: auto;" src="img/que-habla.png" alt="">
       <h4 style="color: #A66E24;">Socializacion</h4>
-      <div class="col-lg-8 mx-auto text-center">
+      
+    </div>
+    </div>
+    </div>
+ </div>
+</section>
 
-      </div>
-    </div>
-    </div>
-</div>
-<div class="row">
+<section>
+  <div class="container">
+<div class="row justify-content-end">
  <div class="col-sm-4">
       <div class="team-member">
       <img class="mx-auto" style="width: 200px; height: auto;" src="img/mochila.png" alt="">
       <h4 style="color: #A66E24;">Utiles Escolares</h4>
-      <div class="col-lg-8 mx-auto text-center">
+    </div>
+    </div>
+  <div class="col-md-8 clearfix">
+    <img class="mx-auto col-md-8 float-md-end mb-3 ms-md-3" style="width: 500px; height: auto;" src="img/inicial.jpg" alt="">  
+    <p>
+    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+  </p>
 
-      </div>
+  <p>
+    As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+  </p>
+
+  <p>
+    And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+  </p>
     </div>
     </div>
-  <div class="col-md-4">
-    <img class="mx-auto" style="width: 200px; height: auto;" src="img/inicial.jpg" alt="">  
-    </div>
-    </div>
+</div>
 </section>
 
 <footer>
