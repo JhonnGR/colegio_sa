@@ -82,7 +82,7 @@
                   <li class="menu-item menu-item-has-children">
                      <a href="#" data-toggle="sub-menu"><i class="fas fa-map-marked-alt"></i> <strong>Infraestructura</strong> <i class="plus"></i></a>
                      <ul class="sub-menu">
-                         <li class="menu-item"><a href="#">Plana Docente</a></li>
+                         <li class="menu-item"><a href="personal.html">Personal</a></li>
                          <li class="menu-item"><a href="#">Piscina</a></li>
                          <li class="menu-item"><a href="#">Laboratorio</a></li>
                          <li class="menu-item"><a href="#">Movilidad</a></li>
@@ -276,7 +276,7 @@ body {
       <div class="col-sm-4">
         <div class="team-member">
           <img class="mx-auto" style="width: 150px; height: auto;" src="img-sa/te.png" alt="">
-          <h4 style="color: #A66E24;">Para resolver sus dudas e inquietudes</h4>
+          <h4 style="color: #A66E24;">Para resolver sus dudas</h4>
           <div class="col-lg-8 mx-auto text-center">
           <p class="large text-muted">----- Teléfono : 387-5469 / WhatsApp : 946 192 081 ----- Email: info@sanagustinsjl.edu.pe Dirección: Av. El Bosque 430 Urb. Canto Rey, San Juan de Lurigancho</p>
           <!-- Button trigger modal -->
@@ -302,17 +302,17 @@ body {
                 <div class="modal-footer">
                   <ul class="list-inline social-buttons">
           <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
+            <a target="_blank" href="https://www.facebook.com/iepsanagustin/">
               <i class="fa fa-facebook"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=51916602775">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=51946192081">
               <i class="fa fa-whatsapp"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
+            <a target="_blank" href="https://www.instagram.com/confiesate_sanagustinsjl/">
               <i class="fa fa-instagram"></i>
             </a>
           </li>
@@ -355,17 +355,17 @@ body {
                 <div class="modal-footer">
                   <ul class="list-inline social-buttons">
           <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
+            <a target="_blank" href="https://www.facebook.com/iepsanagustin/">
               <i class="fa fa-facebook"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=51916602775">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=51946192081">
               <i class="fa fa-whatsapp"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
+            <a target="_blank" href="https://www.instagram.com/confiesate_sanagustinsjl/">
               <i class="fa fa-instagram"></i>
             </a>
           </li>
@@ -408,17 +408,17 @@ body {
                 <div class="modal-footer">
                   <ul class="list-inline social-buttons">
           <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
+            <a target="_blank" href="https://www.facebook.com/iepsanagustin/">
               <i class="fa fa-facebook"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=51916602775">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=51946192081">
               <i class="fa fa-whatsapp"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
+            <a target="_blank" href="https://www.instagram.com/confiesate_sanagustinsjl/">
               <i class="fa fa-instagram"></i>
             </a>
           </li>
@@ -481,19 +481,19 @@ body {
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
-              <li class="list-inline-item" >
-                <a target="_blank" href="https://www.facebook.com/centroradiologicodigital/">
-                  <i class="fa fa-facebook"></i>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.facebook.com/iepsanagustin/">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=51916602775">
-                  <i class="fa fa-whatsapp"></i>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=51946192081">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a target="_blank" href="https://www.instagram.com/centroradiologicodigital/">
-                  <i class="fa fa-instagram"></i>
+                <a target="_blank" href="https://www.instagram.com/confiesate_sanagustinsjl/">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
               </li>
             </ul>
