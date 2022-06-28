@@ -1,60 +1,34 @@
-  <div class="container">
-  <div class="row align-items-start">
-    <div class="col">
-      <h2 style="font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 80px;
-    margin-left: 20px;">Educacion Inicial</h2>
-     <div class="text-justify">
-     <p>A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.<br></p>
-     <p>En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y expresar con mayor seguridad sus emociones, y a regularlas progresivamente con el acompañamiento del docente. A medida que fortalecen estos aspectos desarrollan sus habilidades sociales, aprenden a convivir con los demás y a cuidar los espacios y recursos comunes que utilizan.<br></p>
-     <p>De igual manera, aprenden a respetar y a construir acuerdos y normas de convivencia. En el proceso de su desarrollo psicomotriz, los niños y las niñas viven su cuerpo a través de la libre exploración y experimentación de sus movimientos, posturas, desplazamientos y juegos, en interacción permanente con su entorno y ambiente.<br></p>
-     <ul class="list-unstyled">
-      <li>En “San Agustín» encontrarás:
-    <ul>
-      <li>Aulas cómodas y espaciosas</li>
-      <li>Juegos recreativos</li>
-      <li>Profesores titulados y especialistas en el nivel</li>
-      <li>Infraestructura amplia y personalizada</li>
-      <li>Visitas guiadas e interactivas</li>
-    </ul>
-  </li>
-</ul>
-</div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/1.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="col">
-      <div class="slider">
-          <?php
-              $ids = array(1,2,3,4,5);
-              $alt = array(
-                  "Slide 1",
-                  "Slide 2",
-                  "Slide 3",
-                  "Slide 4",
-                  "Slide 5"
-              );
-              $max = count($ids);
-              for($s=0;$s<$max;$s++){ ?>
-                  <input type="radio" id="<?= $ids[$s]; ?>" name="image-slide" hidden />
-          <?php } ?>
-          <div class="slideshow">
-              <?php for($s=0;$s<$max;$s++){ ?>
-              <div class="item-slide">
-                  <img src="img/<?= $ids[$s]; ?>.jpg" alt="<?= $alt[$s]; ?>" />
-              </div>
-              <?php } ?>
-          </div>
-          <div class="pagination">
-              <?php for($s=0;$s<$max;$s++){ ?>
-              <label class="pag-item" for="<?= $ids[$s]; ?>">
-                  <img src="img/<?= $ids[$s]; ?>.jpg" alt="<?= $alt[$s]; ?>" />
-              </label>
-              <?php } ?>
-          </div>
-      </div>
+    <div class="carousel-item">
+      <img src="img/2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/3.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-
-
-
+  </body>
+</html>
