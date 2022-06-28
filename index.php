@@ -68,7 +68,7 @@
                </div>
                <ul class="menu">
                  <li class="menu-item">
-                    <a href="index.php"> <i class="fas fa-home"></i> Inicio</a>
+                    <a href="#"> <i class="fas fa-home"></i> Inicio</a>
                  </li>
                   <li class="menu-item menu-item-has-children" style="margin-top: 21px;">
 
@@ -83,7 +83,7 @@
                      <a href="#" data-toggle="sub-menu"><i class="fas fa-map-marked-alt"></i> <strong>Infraestructura</strong> <i class="plus"></i></a>
                      <ul class="sub-menu">
                          <li class="menu-item"><a href="personal.html">Personal</a></li>
-                         <li class="menu-item"><a href="#">Piscina</a></li>
+                         <li class="menu-item"><a href="piscina.html">Piscina</a></li>
                          <li class="menu-item"><a href="#">Laboratorio</a></li>
                          <li class="menu-item"><a href="#">Movilidad</a></li>
                          <li class="menu-item"><a href="#">Sala de Computo</a></li>
@@ -98,7 +98,7 @@
                      <a href="#"><i class="fas  fa-folder"></i> <strong>Documentos</strong></a>
                   </li>
                   <li class="menu-item">
-                     <a href="#"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
+                     <a href="https://sanagustinsjl.cubicol.pe/"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
                   </li>
                   <li class="menu-item">
                      <a href="#"><i class="fas  fa-gears"></i> <strong>Soporte</strong></a>

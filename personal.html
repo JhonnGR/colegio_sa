@@ -42,6 +42,10 @@
     <link href="css/slider.css" rel="stylesheet" type="text/css" />
 
 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/carrusel.css">
 
   </head>
 
@@ -83,7 +87,7 @@
                      <a href="#" data-toggle="sub-menu"><i class="fas fa-map-marked-alt"></i> <strong>Infraestructura</strong> <i class="plus"></i></a>
                      <ul class="sub-menu">
                          <li class="menu-item"><a href="#">Personal</a></li>
-                         <li class="menu-item"><a href="#">Piscina</a></li>
+                         <li class="menu-item"><a href="piscina.html">Piscina</a></li>
                          <li class="menu-item"><a href="#">Laboratorio</a></li>
                          <li class="menu-item"><a href="#">Movilidad</a></li>
                          <li class="menu-item"><a href="#">Sala de Computo</a></li>
@@ -98,7 +102,7 @@
                      <a href="#"><i class="fas  fa-folder"></i> <strong>Documentos</strong></a>
                   </li>
                   <li class="menu-item">
-                     <a href="#"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
+                     <a href="https://sanagustinsjl.cubicol.pe/"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
                   </li>
                   <li class="menu-item">
                      <a href="#"><i class="fas  fa-gears"></i> <strong>Soporte</strong></a>
@@ -115,6 +119,8 @@
 <div  class="movile">
 
 </div>
+
+
 
     <!-- Descripción-->
       <section class="py-5" id="services">
@@ -136,8 +142,110 @@
             </div>
           </div>
 
+
+          <div class="slide-container swiper">
+              <div class="slide-content">
+                  <div class="card-wrapper swiper-wrapper">
+                      <div class="card swiper-slide">
+                          <div class="image-content">
+                              <span class="overlay"></span>
+
+                              <div class="card-image">
+                                  <img src="images_pers/sub_dir_gen.jpg" alt="" class="card-img">
+                              </div>
+                          </div>
+
+                          <div class="card-content">
+                              <h2 class="name">Subdirector General</h2>
+                              <p class="description"><b>Doctor: Elmer Zamora Mondragon</b>
+                                                    xx@sanagustinsjl.edu.pe</p>
+
+                              <button class="btn btn-primary">Ver más</button>
+                          </div>
+                      </div>
+                      <div class="card swiper-slide">
+                          <div class="image-content">
+                              <span class="overlay"></span>
+
+                              <div class="card-image">
+                                  <img src="images_pers/sub_coor.jpg" alt="" class="card-img">
+                              </div>
+                          </div>
+
+                          <div class="card-content">
+                              <h2 class="name">Coordinador Academico</h2>
+                              <p class="description"><b>Magister: Wilinton Ortiz</b>
+                                                    xx@sanagustinsjl.edu.pe</p>
+
+                              <button class="btn btn-primary">Ver más</button>
+                          </div>
+                      </div>
+                      <div class="card swiper-slide">
+                          <div class="image-content">
+                              <span class="overlay"></span>
+
+                              <div class="card-image">
+                                  <img src="images_pers/coor_ini.jpg" alt="" class="card-img">
+                              </div>
+                          </div>
+
+                          <div class="card-content">
+                              <h2 class="name">Coor. del Nivel Inicial</h2>
+                              <p class="description"><b>Docente: Dora</b>
+                                                    xx@sanagustinsjl.edu.pe</p>
+
+                              <button class="btn btn-primary">Ver más</button>
+                          </div>
+                      </div>
+                      <div class="card swiper-slide">
+                          <div class="image-content">
+                              <span class="overlay"></span>
+
+                              <div class="card-image">
+                                  <img src="images_pers/coor_pri.jpg" alt="" class="card-img">
+                              </div>
+                          </div>
+
+                          <div class="card-content">
+                              <h2 class="name">Coor.del Nivel Primaria</h2>
+                              <p class="description"><b>Docente: Susana FLores</b>
+                                                    xx@sanagustinsjl.edu.pe</p>
+
+                              <button class="btn btn-primary">Ver más</button>
+                          </div>
+                      </div>
+                      <div class="card swiper-slide">
+                          <div class="image-content">
+                              <span class="overlay"></span>
+
+                              <div class="card-image">
+                                  <img src="images_pers/coor_sec.jpg" alt="" class="card-img">
+                              </div>
+                          </div>
+
+                          <div class="card-content">
+                              <h2 class="name">Coor.del Nivel Secundaria</h2>
+                              <p class="description"><b>Docente: Miguel Bonis Chavez</b>
+                                                    bmiguel@sanagustinsjl.edu.pe</p>
+
+                              <button class="btn btn-primary">View More</button>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+
+              <div class="swiper-button-next swiper-navBtn"></div>
+              <div class="swiper-button-prev swiper-navBtn"></div>
+              <div class="swiper-pagination"></div>
+          </div>
+
         </div>
+
       </section>
+
+
+
 
 
 
@@ -201,12 +309,50 @@
     <!-- Custom scripts for this template -->
     <script src="js/barra.js"></script>
 
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <!-- Carousel -->
+    <script src="js/slick.min.js"></script>
+    <!-- Starrr -->
+    <script src="js/starrr.js"></script>
+    <script type="text/javascript">
+        //Starrr
+        $('.starrr').starrr({})
 
+        $('.carousel').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            draggable: false,
+            slidesToShow: 4,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false
+                }
+            }, {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }, ]
+        });
+    </script>
 
-
-
-
-
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- JavaScript -->
+    <script src="js/carrusel.js"></script>
 
   </body>
 
