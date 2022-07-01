@@ -117,7 +117,22 @@
   <section>
   <div class="container">
   <div class="clearfix">
-  <img src="img/1.jpg" class="col-md-8 float-md-end mb-3 ms-md-3" alt="...">
+  <div class="col-md-8 float-md-end mb-3 ms-md-3">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/1.jpg" class="d-block w-100" height= "200px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/inicial.jpg" class="d-block w-100" height="250px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/2.jpg" class="d-block w-100" height="200px" alt="...">
+    </div>
+  </div>
+</div>
+
+  </div>
   <div class="text-justify">
      <p>A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.<br></p>
      <p>En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y expresar con mayor seguridad sus emociones, y a regularlas progresivamente con el acompañamiento del docente. A medida que fortalecen estos aspectos desarrollan sus habilidades sociales, aprenden a convivir con los demás y a cuidar los espacios y recursos comunes que utilizan.<br></p>
@@ -142,8 +157,24 @@
       <h4 style="color: #A66E24;">Infraestructura</h4>
 </div>
 </div>
-    <div class="col-md-8 clearfix">
-    <img class="mx-auto col-md-8 float-md-end mb-3 ms-md-3" style="width: 500px; height: auto;" src="img/inicial.jpg" alt="">  
+    <div class="col-md-8">
+      <div class="clearfix">
+        <div class="mx-auto col-md-8 float-md-end mb-3 ms-md-3">
+     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+     </div>     
+    <div class="text-justify">
     <p>
     A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
   </p>
@@ -155,16 +186,20 @@
   <p>
     And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
   </p>
-    </div>
+</div>
+  </div>
+</div>
+    
 </div>
 </div>
 </section>
 
-<section>
+<section id="socializacion" style="margin-top: -290px;">
   <div class="container">
 <div class="row justify-content-start">
 <div class="col-md-8 clearfix">
     <img class="mx-auto col-md-8 float-md-start mb-3 ms-md-3" style="width: 500px; height: auto;" src="img/inicial.jpg" alt="">
+    <div class="text-justify">
     <p>
     A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
   </p>
@@ -176,6 +211,7 @@
   <p>
     And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
   </p>
+  </div>
     </div>
 <div class="col-sm-4">
       <div class="team-member">
@@ -188,7 +224,7 @@
  </div>
 </section>
 
-<section>
+<section id="utiles" style="margin-top: -290px;">
   <div class="container">
 <div class="row justify-content-end">
  <div class="col-sm-4">
@@ -198,7 +234,8 @@
     </div>
     </div>
   <div class="col-md-8 clearfix">
-    <img class="mx-auto col-md-8 float-md-end mb-3 ms-md-3" style="width: 500px; height: auto;" src="img/inicial.jpg" alt="">  
+    <img class="mx-auto col-md-8 float-md-end mb-3 ms-md-3" style="width: 500px; height: auto;" src="img/inicial.jpg" alt=""> 
+    <div class="text-justify">
     <p>
     A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
   </p>
@@ -210,6 +247,7 @@
   <p>
     And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
   </p>
+  </div>
     </div>
     </div>
 </div>
