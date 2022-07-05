@@ -83,7 +83,7 @@
 }
 
 .synch-carousels .nav-arrows svg {
-  fill: white;
+  fill: #642529;
 }
 
 .synch-carousels .arrow-left {
@@ -96,7 +96,7 @@
   right: 0;
   padding: 0 20px;
   color: white;
-  background: #292929;
+  background: #642529;
 }
 
 @media screen and (min-width: 480px) {
