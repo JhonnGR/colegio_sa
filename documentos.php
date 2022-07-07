@@ -43,6 +43,10 @@
     <!-- PAQUETE DE ESTILOS DE SLIDER -->
     <link href="css/slider.css" rel="stylesheet" type="text/css" />
 
+    <!-- PAQUETE DE fontawesome (iconos)-->
+    <link href="fontawesome/css/all.css" rel="stylesheet" type="text/css" />
+    <link href="fontawesome/css/solid.css" rel="stylesheet" type="text/css" />
+
 
 
   </head>
@@ -86,7 +90,7 @@
                      <a href="#" data-toggle="sub-menu"><i class="fas fa-map-marked-alt"></i> <strong>Infraestructura</strong> <i class="plus"></i></a>
                      <ul class="sub-menu">
                          <li class="menu-item"><a href="personal.html">Personal</a></li>
-                         <li class="menu-item"><a href="#">Piscina</a></li>
+                         <li class="menu-item"><a href="piscina.html">Piscina</a></li>
                          <li class="menu-item"><a href="#">Laboratorio</a></li>
                          <li class="menu-item"><a href="#">Movilidad</a></li>
                          <li class="menu-item"><a href="#">Sala de Computo</a></li>
@@ -94,17 +98,25 @@
                          <li class="menu-item"><a href="#">Juego recreativos de Inicial</a></li>
                      </ul>
                   </li>
-                  <li class="menu-item">
-                     <a href="#"><i class="fas fa-address-card"></i> <strong>Consultas</strong> </a>
+                  <li class="menu-item menu-item-has-children">
+                     <a href="#" data-toggle="sub-menu"><i class="fa-solid fa-address-book"></i> <strong>Contacto</strong> <i class="plus"></i></a>
+                     <ul class="sub-menu">
+                         <li class="menu-item"><a href=""><strong>Consultas</strong></a></li>
+                         <li class="menu-item"><a href="#"><strong>Citas</strong></a></li>
+                     </ul>
+
+                  </li>
+                  <li class="menu-item menu-item-has-children">
+                     <a href="#" data-toggle="sub-menu"><i class="fa  fa-globe"></i> <strong>Comunidad</strong> <i class="plus"></i></a>
+                     <ul class="sub-menu">
+                         <li class="menu-item"><a href="#"><strong>Noticias</strong></a></li>
+                         <li class="menu-item"><a href="#"><strong>Testimonios</strong></a></li>
+                         <li class="menu-item"><a href=""><strong>Soporte</strong></a></li>
+                         <li class="menu-item"><a href="documentos.html"><strong>Documentos</strong></a></li>
+                     </ul>
                   </li>
                   <li class="menu-item">
-                     <a href="#"><i class="fas  fa-folder"></i> <strong>Documentos</strong></a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="#"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="#"><i class="fas  fa-gears"></i> <strong>Soporte</strong></a>
+                     <a href="https://sanagustinsjl.cubicol.pe/"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
                   </li>
                </ul>
              </nav>

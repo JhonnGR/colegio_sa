@@ -74,15 +74,15 @@
                </div>
                <ul class="menu">
                  <li class="menu-item">
-                    <a href="#"> <i class="fas fa-home"></i> Inicio</a>
+                    <a href="index.php"> <i class="fas fa-home"></i> Inicio</a>
                  </li>
                   <li class="menu-item menu-item-has-children" style="margin-top: 21px;">
 
                      <a href="#" data-toggle="sub-menu"><i class="fas fa-list-alt"></i> Servicios <i class="plus"></i></a>
                      <ul class="sub-menu">
                          <li class="menu-item"><a href="edu-inicial.php">Educación Inicial</a></li>
-                         <li class="menu-item"><a href="#">Educación Primaria</a></li>
-                         <li class="menu-item"><a href="#">Educación Secundaria</a></li>
+                         <li class="menu-item"><a href="edu-primaria.php">Educación Primaria</a></li>
+                         <li class="menu-item"><a href="edu-secundaria.php">Educación Secundaria</a></li>
                      </ul>
                   </li>
                   <li class="menu-item menu-item-has-children">
@@ -100,18 +100,18 @@
                   <li class="menu-item menu-item-has-children">
                      <a href="#" data-toggle="sub-menu"><i class="fa-solid fa-address-book"></i> <strong>Contacto</strong> <i class="plus"></i></a>
                      <ul class="sub-menu">
-                         <li class="menu-item"><a href=""> <i class="fa-solid fa-id-card"></i> <strong>Consultas</strong></a></li>
-                         <li class="menu-item"><a href="#"> <i class="fa-solid fa-address-card"></i> <strong>Citas</strong></a></li>
+                         <li class="menu-item"><a href=""><strong>Consultas</strong></a></li>
+                         <li class="menu-item"><a href="#"><strong>Citas</strong></a></li>
                      </ul>
 
                   </li>
                   <li class="menu-item menu-item-has-children">
                      <a href="#" data-toggle="sub-menu"><i class="fa  fa-globe"></i> <strong>Comunidad</strong> <i class="plus"></i></a>
                      <ul class="sub-menu">
-                         <li class="menu-item"><a href="personal.html"> <strong>Noticias</strong></a></li>
-                         <li class="menu-item"><a href="#"> <strong>Testimonios</strong></a></li>
-                         <li class="menu-item"><a href=""><i class="fas  fa-gears"></i> <strong>Soporte</strong></a></li>
-                         <li class="menu-item"><a href="#"><i class="fas  fa-folder"></i> <strong>Documentos</strong></a></li>
+                         <li class="menu-item"><a href="#"><strong>Noticias</strong></a></li>
+                         <li class="menu-item"><a href="#"><strong>Testimonios</strong></a></li>
+                         <li class="menu-item"><a href=""><strong>Soporte</strong></a></li>
+                         <li class="menu-item"><a href="documentos.html"><strong>Documentos</strong></a></li>
                      </ul>
                   </li>
                   <li class="menu-item">

@@ -43,6 +43,9 @@
     <!-- PAQUETE DE ESTILOS DE SLIDER -->
     <link href="css/slider.css" rel="stylesheet" type="text/css" />
 
+    <!-- PAQUETE DE fontawesome (iconos)-->
+    <link href="fontawesome/css/all.css" rel="stylesheet" type="text/css" />
+    <link href="fontawesome/css/solid.css" rel="stylesheet" type="text/css" />
 
 
   </head>
@@ -86,7 +89,7 @@
                      <a href="#" data-toggle="sub-menu"><i class="fas fa-map-marked-alt"></i> <strong>Infraestructura</strong> <i class="plus"></i></a>
                      <ul class="sub-menu">
                          <li class="menu-item"><a href="personal.html">Personal</a></li>
-                         <li class="menu-item"><a href="#">Piscina</a></li>
+                         <li class="menu-item"><a href="piscina.html">Piscina</a></li>
                          <li class="menu-item"><a href="#">Laboratorio</a></li>
                          <li class="menu-item"><a href="#">Movilidad</a></li>
                          <li class="menu-item"><a href="#">Sala de Computo</a></li>
@@ -94,17 +97,25 @@
                          <li class="menu-item"><a href="#">Juego recreativos de Inicial</a></li>
                      </ul>
                   </li>
-                  <li class="menu-item">
-                     <a href="#"><i class="fas fa-address-card"></i> <strong>Consultas</strong> </a>
+                  <li class="menu-item menu-item-has-children">
+                     <a href="#" data-toggle="sub-menu"><i class="fa-solid fa-address-book"></i> <strong>Contacto</strong> <i class="plus"></i></a>
+                     <ul class="sub-menu">
+                         <li class="menu-item"><a href=""><strong>Consultas</strong></a></li>
+                         <li class="menu-item"><a href="#"><strong>Citas</strong></a></li>
+                     </ul>
+
+                  </li>
+                  <li class="menu-item menu-item-has-children">
+                     <a href="#" data-toggle="sub-menu"><i class="fa  fa-globe"></i> <strong>Comunidad</strong> <i class="plus"></i></a>
+                     <ul class="sub-menu">
+                         <li class="menu-item"><a href="#"><strong>Noticias</strong></a></li>
+                         <li class="menu-item"><a href="#"><strong>Testimonios</strong></a></li>
+                         <li class="menu-item"><a href=""><strong>Soporte</strong></a></li>
+                         <li class="menu-item"><a href="documentos.html"><strong>Documentos</strong></a></li>
+                     </ul>
                   </li>
                   <li class="menu-item">
-                     <a href="#"><i class="fas  fa-folder"></i> <strong>Documentos</strong></a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="#"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="#"><i class="fas  fa-gears"></i> <strong>Soporte</strong></a>
+                     <a href="https://sanagustinsjl.cubicol.pe/"><i class="fas fa-graduation-cap"></i> <strong>Cubibol</strong></a>
                   </li>
                </ul>
              </nav>
@@ -112,7 +123,6 @@
           </div>
        </div>
     </div>
-
 <!-- Inicia bloques de informacion-->
   <section>
   <div class="container">
@@ -174,7 +184,7 @@
     </div>
   </div>
 </div>
-     </div>     
+     </div>
     <div class="text-justify">
     <p>
    A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.
@@ -183,7 +193,7 @@ En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y 
 </div>
   </div>
 </div>
-    
+
 </div>
 </div>
 </section>
@@ -193,8 +203,8 @@ En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y 
 <section id="socializacion" style="margin-top: -290px;">
   <div class="container">
 <div class="row justify-content-start">
-<div class="col-md-8"> 
-  <div class="clearfix"> 
+<div class="col-md-8">
+  <div class="clearfix">
     <div class="mx-auto col-md-8 float-md-start mb-3 ms-md-3">
      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -209,7 +219,7 @@ En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y 
     </div>
   </div>
 </div>
-     </div>   
+     </div>
     <div class="text-justify">
     <p>
      A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.
@@ -222,7 +232,7 @@ En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y 
       <div class="team-member">
       <img class="mx-auto" style="width: 200px; height: auto;" src="img/que-habla.png" alt="">
       <h4 style="color: #A66E24;">Socializacion</h4>
-      
+
     </div>
     </div>
     </div>
@@ -256,7 +266,7 @@ En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y 
     </div>
   </div>
 </div>
-     </div>     
+     </div>
     <div class="text-justify">
     <p>
      A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.
