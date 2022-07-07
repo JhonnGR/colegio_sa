@@ -130,7 +130,10 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
+        <div class="rounded float-start">
+        <img class="mx-auto" style="width: 55px; height: auto;" src="img-sa/family.png" alt="">
+        </div>
+        <h5 style="color: #A66E24; margin-left: 10px; font-family: Work Sans;"><strong class="display-6">Informate Padre de Familia</strong></h5>
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
