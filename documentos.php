@@ -124,16 +124,17 @@
           </div>
        </div>
     </div>
-<section>
+
+<section id="Padres">
   <div class="container">
 <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
+  <div class="accordion-item" style=" border-color: #642529; border-radius: 15px;">
     <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button class="accordion-button collapsed" style="background-color: #dfdfdf; border-radius:15px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         <div class="rounded float-start">
-        <img class="mx-auto" style="width: 55px; height: auto;" src="img-sa/family.png" alt="">
+        <img class="mx-auto" style="width: 80px; height: auto;" src="img-sa/family.png" alt="">
         </div>
-        <h5 style="color: #A66E24; margin-left: 10px; font-family: Work Sans;"><strong class="display-6">Informate Padre de Familia</strong></h5>
+        <h5 style="color: #A66E24; margin-left: 10px; font-family: Work Sans;"><strong class="display-6">Infórmate Padre de Familia!!</strong></h5>
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -142,10 +143,19 @@
       </div>
     </div>
   </div>
-  <div class="accordion-item">
+</div>
+</div>
+</section>
+
+<section id="Alumnos" style="margin-top: -250px;" >
+  <div class="container">
+  <div class="accordion-item" style=" border-color: #642529; border-radius:15px;">
     <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
+      <button class="accordion-button collapsed" style="background-color: #dfdfdf; border-radius:15px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <div class="rounded float-start">
+        <img class="mx-auto" style="width: 80px; height: auto;" src="img-sa/bus-school.png" alt="">
+        </div>
+        <h5 style="color: #A66E24; margin-left: 10px; font-family: Work Sans;"><strong class="display-6">Infórmate Agustiniano!!</strong></h5>
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -154,10 +164,18 @@
       </div>
     </div>
   </div>
-  <div class="accordion-item">
+  </div>
+</section>
+
+<section id="Trabajadores" style="margin-top: -250px;">
+  <div class="container">
+  <div class="accordion-item" style=" border-color: #642529; border-radius:15px;">
     <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
+      <button class="accordion-button collapsed" style="background-color: #dfdfdf; border-radius:15px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <div class="rounded float-start">
+        <img class="mx-auto" style="width: 80px; height: auto;" src="img-sa/empleado.png" alt="">
+        </div>
+        <h5 style="color: #A66E24; margin-left: 10px; font-family: Work Sans;"><strong class="display-6">Familia Agustiniana Infórmate!!</strong></h5>
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -166,6 +184,7 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 </div>
 </section>
