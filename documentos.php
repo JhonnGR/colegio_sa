@@ -141,7 +141,7 @@
       <div class="accordion-body">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="docs/cubicol-braco.pdf">
+            <a class="nav-link" href="docs/cubicol-braco.pdf" download="">
               <img src="img-sa/pdf.png" style="width: 60px;">
               Informacion de los docentes
             </a>
