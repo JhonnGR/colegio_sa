@@ -112,7 +112,7 @@
                          <li class="menu-item"><a href="#"><strong>Noticias</strong></a></li>
                          <li class="menu-item"><a href="#"><strong>Testimonios</strong></a></li>
                          <li class="menu-item"><a href=""><strong>Soporte</strong></a></li>
-                         <li class="menu-item"><a href="documentos.html"><strong>Documentos</strong></a></li>
+                         <li class="menu-item"><a href="documentos.php"><strong>Documentos</strong></a></li>
                      </ul>
                   </li>
                   <li class="menu-item">
