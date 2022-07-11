@@ -112,7 +112,7 @@
                          <li class="menu-item"><a href="#"><strong>Noticias</strong></a></li>
                          <li class="menu-item"><a href="#"><strong>Testimonios</strong></a></li>
                          <li class="menu-item"><a href=""><strong>Soporte</strong></a></li>
-                         <li class="menu-item"><a href="documentos.html"><strong>Documentos</strong></a></li>
+                         <li class="menu-item"><a href="documentos.php"><strong>Documentos</strong></a></li>
                      </ul>
                   </li>
                   <li class="menu-item">
@@ -134,7 +134,7 @@
         <div class="rounded float-start">
         <img class="mx-auto" style="width: 80px; height: auto;" src="img-sa/family.png" alt="">
         </div>
-        <h5 style="color: #A66E24; margin-left: 10px; font-family: Work Sans;"><strong class="display-6">Infórmate Padre de Familia!!</strong></h5>
+        <h5><strong class="display-6" style="color: #A66E24; margin-left: 10px; font-family: Work Sans; font-size: 28px;">Infórmate Padre de Familia!!</strong></h5>
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -162,12 +162,19 @@
       <div class="rounded float-start">
         <img class="mx-auto" style="width: 80px; height: auto;" src="img-sa/bus-school.png" alt="">
         </div>
-        <h5 style="color: #A66E24; margin-left: 10px; font-family: Work Sans;"><strong class="display-6">Infórmate Agustiniano!!</strong></h5>
+        <h5 style="color: #A66E24; margin-left: 10px; font-family: Work Sans;"><strong class="display-6" style="color: #A66E24; margin-left: 10px; font-family: Work Sans; font-size: 28px;">Infórmate Agustiniano!!</strong></h5>
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="docs/cubicol-braco.pdf" download="">
+              <img src="img-sa/pdf.png" style="width: 60px;">
+              Informacion de los docentes
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -182,12 +189,19 @@
         <div class="rounded float-start">
         <img class="mx-auto" style="width: 80px; height: auto;" src="img-sa/empleado.png" alt="">
         </div>
-        <h5 style="color: #A66E24; margin-left: 10px; font-family: Work Sans;"><strong class="display-6">Familia Agustiniana Infórmate!!</strong></h5>
+        <h5 style="color: #A66E24; margin-left: 10px; font-family: Work Sans;"><strong class="display-6" style="color: #A66E24; margin-left: 10px; font-family: Work Sans; font-size: 28px;">Familia Agustiniana Infórmate!!</strong></h5>
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="docs/cubicol-braco.pdf" download="">
+              <img src="img-sa/pdf.png" style="width: 60px;">
+              Informacion de los docentes
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
