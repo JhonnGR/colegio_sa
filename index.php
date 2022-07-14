@@ -465,7 +465,7 @@ body {
       <div class="col-sm-8">
         <div class="team-member">
           <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted" style="">“NUESTRA PROPUESTA EDUCATIVA SE SUSTENTA EN LOS PRINCIPIOS DE FORMACIÓN INTEGRAL
+          <p class="large text-muted" style="font-family: 'Srisakdi', cursive;">“NUESTRA PROPUESTA EDUCATIVA SE SUSTENTA EN LOS PRINCIPIOS DE FORMACIÓN INTEGRAL
                                                                     Y DE COMPROMISO RECÍPROCO ENTRE LA ESCUELA Y LA FAMILIA CON UN PLAN DE ESTUDIOS
                                                                     CONTEXTUALIZADO, DEL COLEGIO A LA UNIVERSIDAD, FORMANDO A LOS FUTUROS PROFESIONALES
                                                                     QUE EL PERÚ NECESITA.”</p>
