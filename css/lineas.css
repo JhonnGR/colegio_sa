@@ -41,3 +41,44 @@ h4::before {
     transform: scale(1);
   }
 }
+@media screen and (min-width: 10px) {
+
+h4::after, h4::before {
+  width: 150px;
+}
+h4::after {
+  left: -170px;
+}
+h4::before {
+  right: -170px;
+}
+
+}
+@media screen and (min-width: 800px) {
+
+h4::after, h4::before {
+  width: 320px;
+}
+h4::after {
+  left: -340px;
+}
+h4::before {
+  right: -340px;
+}
+
+}
+
+
+@media (min-width: 1150px) {
+h4::after, h4::before {
+  width: 520px;
+}
+h4::after {
+  left: -540px;
+}
+h4::before {
+  right: -540px;
+}
+
+}
+
