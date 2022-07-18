@@ -129,11 +129,31 @@
 <section id="Contact">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-4">
-        holi
+      <div class="col-4" style="margin-left: -150px;">
+        <h2>Telefono</h2>
+          <img src="img-sa/telefono.png" style="width:30px;">
+           <p style="margin-left:35px; margin-top:-28px;">387-5469</p>
+        <h2>WhatsApp</h2>
+          <img src="img-sa/whats.png" style="width:30px;">
+           <p style="margin-left:35px; margin-top:-28px;">+51 946 192 081</p>
+        <h2>Correo Electronico</h2>
+          <img src="img-sa/correo.png" style="width:30px;">
+           <p style="margin-left:35px; margin-top:-28px;">info@sanagustinsjl.edu.pe</p>
+        <h2>Horario de Atención</h2>
+          <img src="img-sa/reloj.png" style="width:45px;">
+           <p style="margin-left:55px; margin-top:-50px;">Lunes - Viernes: 7:30 AM - 4:00 PM</p><br>
+           <p style="margin-left:55px; margin-top:-45px;">Sabados: 8:00 AM - 12:00 AM</p>
+        <h2>Area Administrativa</h2>
+          <img src="img-sa/empleados.png" style="width:45px;">
+           <p style="margin-left:55px; margin-top:-50px;">Arana Huaman, Luis Enrique</p><br>
+           <p style="margin-left:55px; margin-top:-45px;">Cuadros Ñañes, Martha Teresa</p>
+        <h2>Direccion</h2>
+        <img src="img-sa/mapa.png" style="width:30px;">
+           <p style="margin-left:35px; margin-top:-28px;">Av. El Bosque 430 Urb. Canto Rey, San Juan de Lurigancho</p>
       </div>
       <div class="col-4">
-        hola
+
+
       </div>
     </div>
     
