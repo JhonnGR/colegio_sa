@@ -152,8 +152,41 @@
            <p style="margin-left:35px; margin-top:-28px;">Av. El Bosque 430 Urb. Canto Rey, San Juan de Lurigancho</p>
       </div>
       <div class="col-4">
-
-
+        <h2>Contácta con nosotros</h2>
+        <p>Te invitamos a realizar las consultas que deses realizar</p>
+        <br>
+        <p>Responderemos tus dudas en la brevedad</p>
+        <p>Seleccione el tipo de consulta</p>
+        <div class="form-floating" style="margin-top: -20px;">
+  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+    <option value="1">Matricula</option>
+    <option value="2">Certificados de Estudio</option>
+    <option value="3">Pension</option>
+    <option value="4">Otras Consultas</option>
+  </select>
+  <label for="floatingSelect">Elige una de las opciones</label>
+</div>
+          <br><p style="margin-top: -10px;">Nombres y Apellidos</p>
+      <div class="form-floating" style="margin-top: -20px;">
+      <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
+      <label for="floatingInputGrid">Ingrese sus Datos</label>
+    </div>
+          <br><p style="margin-top: -10px;">Celular</p>
+      <div class="form-floating" style="margin-top: -20px;">
+      <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
+      <label for="floatingInputGrid">Ingrese su Número de Contácto</label>
+    </div>
+          <br><p style="margin-top: -10px;">Correo Electrónico</p>
+      <div class="form-floating" style="margin-top: -20px;">
+      <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
+      <label for="floatingInputGrid">Ingrese su Correo Electrónico</label>
+    </div>
+          <br><p style="margin-top: -10px;">Queremos resolver sus dudas</p>
+          <div class="form-floating" style="margin-top: -20px;">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px"></textarea>
+      <label for="floatingTextarea">Ingrese Aqui sus Preocupaciones</label>
+          </div>
+        <button class="btn btn-primary" type="submit" style="margin-bottom: -50px;">Enviar Consulta</button>
       </div>
     </div>
     
