@@ -127,6 +127,13 @@
 <!-- Inicia bloques de informacion-->
   <section>
   <div class="container">
+    <h2 class="section-heading text-uppercase text-center" style="font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #A66E24;
+    font-family: 'Work Sans';
+    font-weight: bold;
+    margin-button: 20px;">Educación Secundaria</h2>
   <div class="clearfix">
   <div class="col-md-8 float-md-end mb-3 ms-md-3">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
