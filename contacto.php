@@ -95,7 +95,6 @@
                          <li class="menu-item"><a href="#">Movilidad</a></li>
                          <li class="menu-item"><a href="#">Sala de Computo</a></li>
                          <li class="menu-item"><a href="#">Cancha deportiva</a></li>
-                         <li class="menu-item"><a href="#">Juego recreativos de Inicial</a></li>
                      </ul>
                   </li>
                   <li class="menu-item menu-item-has-children">
