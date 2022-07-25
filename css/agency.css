@@ -582,15 +582,35 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.relleno{
+    background-color: #0069aa;
+    background-image: url(https://www.innovaschools.edu.pe/wp-content/uploads/2021/12/vector_1.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: auto;
+    border-top-width: 8px;
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    border-left-width: 8px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+}
+
 .team-member {
   margin-bottom: 50px;
-  text-align: center;
+  text-align: center; 
+
+
 }
 
 .team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
+  margin-top: 25px;
+  width: 100px;
+  height: auto;
 }
 
 .team-member h4 {
