@@ -583,8 +583,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .relleno{
-    background-color: #0069aa;
-    background-image: url(https://www.innovaschools.edu.pe/wp-content/uploads/2021/12/vector_1.svg);
+    background-color: ;
+    background-image: ;
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: scroll;
@@ -597,14 +597,14 @@ header.masthead .intro-text .intro-heading {
     border-top-right-radius: 16px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-
+    text-align: center; 
+}
+.position{
+  text-align: left; 
 }
 
 .team-member {
   margin-bottom: 50px;
-  text-align: center; 
-
-
 }
 
 .team-member img {

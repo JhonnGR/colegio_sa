@@ -46,7 +46,8 @@
     <link href="fontawesome/css/all.css" rel="stylesheet" type="text/css" />
     <link href="fontawesome/css/solid.css" rel="stylesheet" type="text/css" />
 
-
+<!-- PAQUETE DE formulario (CONTACTO)-->
+    <link rel="stylesheet" href="css/fomu.css">
 
 
   </head>
@@ -208,9 +209,9 @@ body {
 
         <div class="row">
           <div class="col-sm-4" >
-            <div class="team-member relleno" >
+            <div class="team-member relleno" style="background-color: #7B1523; background-image: ;">
               <img class="mx-auto"  src="img-sa/vision.png" alt="">
-              <h4 style="color: #A66E24;">LA INSTITUCIÓN EDUCATIVA PRIVADA «SAN AGUSTÍN»</h4>
+              <h4 style="color: #fff;">LA INSTITUCIÓN EDUCATIVA PRIVADA «SAN AGUSTÍN»</h4>
               <div class="col-lg-11 mx-auto text-center">
               <p class="large text-muted" style="text-align: justify;">La Institución Educativa Privada “San Agustín”,
                   fue creado en el año de 1991, con la RD N° 0945 del 30-09-91,
@@ -223,9 +224,9 @@ body {
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="team-member relleno">
+            <div class="team-member relleno" style="background-color: #BA7115;">
               <img class="mx-auto"  src="img-sa/mision.png" alt="">
-              <h4 style="color: #A66E24;">Misión Institucional</h4>
+              <h4 style="color: #fff;">Misión Institucional</h4>
               <div class="col-lg-11 mx-auto text-center">
               <p class="large text-muted" style="text-align: justify;">“Somos una institución educativa de
                                           gestión privada, que brinda servicios
@@ -246,9 +247,9 @@ body {
           </div>
 
           <div class="col-sm-4">
-            <div class="team-member relleno">
+            <div class="team-member relleno" style="background-color: #7B1523;">
               <img class="mx-auto" src="img-sa/vision.png" alt="">
-              <h4 style="color: #A66E24;">Visión Institucional</h4>
+              <h4 style="color: #fff;">Visión Institucional</h4>
               <div class="col-lg-11 mx-auto text-center">
               <p class="large text-muted" style="text-align: justify;">“Ser reconocidos nacional e
                                           internacionalmente como una Entidad
@@ -274,160 +275,71 @@ body {
 
     <!--Form contact-->
 
-    <section class="py-5" id="services">
-    <div class="container">
+    <div class="container" style="max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    margin-top: -50px;">
+      
+        <div class="content">
+        <h1 class="logo" style="color: #A66E24;">Contacto</h1>
 
-      <div class="row">
-
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto"  src="img-sa/mision.png" alt="">
-            <h4 style="color: #A66E24;">Misión Institucional</h4>
-            <div class="col-lg-11 mx-auto text-center">
-
-              <h2>Telefono</h2>
-                <img src="img-sa/telefono.png" style="width:30px;">
-                 <p style="margin-left:35px; margin-top:-28px;">387-5469</p>
-              <h2>WhatsApp</h2>
-                <img src="img-sa/whats.png" style="width:30px;">
-                 <p style="margin-left:35px; margin-top:-28px;">+51 946 192 081</p>
-              <h2>Correo Electronico</h2>
-                <img src="img-sa/correo.png" style="width:30px;">
-                 <p style="margin-left:35px; margin-top:-28px;">info@sanagustinsjl.edu.pe</p>
-              <h2>Horario de Atención</h2>
-                <img src="img-sa/reloj.png" style="width:45px;">
-                 <p style="margin-left:55px; margin-top:-50px;">Lunes - Viernes: 7:30 AM - 4:00 PM</p><br>
-                 <p style="margin-left:55px; margin-top:-45px;">Sabados: 8:00 AM - 12:00 AM</p>
-              <h2>Area Administrativa</h2>
-                <img src="img-sa/empleados.png" style="width:45px;">
-                 <p style="margin-left:55px; margin-top:-50px;">Arana Huaman, Luis Enrique</p><br>
-                 <p style="margin-left:55px; margin-top:-45px;">Cuadros Ñañes, Martha Teresa</p>
-              <h2>Direccion</h2>
-              <img src="img-sa/mapa.png" style="width:30px;">
-                 <p style="margin-left:35px; margin-top:-28px;">Av. El Bosque 430 Urb. Canto Rey, San Juan de Lurigancho</p>
-
-            <br>
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contactanos</h3>
+                <form action="">
+                    <p>
+                        <label class="label">Nombres</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label class="label">Correo</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label class="label">Celular</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label class="label">Elige una de las opciones</label>
+                          <select class="form-select" style="margin-top: 20px;  border: 1px solid #d63031 !important; color: #A66E24 !important;" id="floatingSelect" aria-label="Floating label select example">
+                            <option value="0">--Seleccione una opción--</option>
+                            <option value="1">Matricula</option>
+                            <option value="2">Certificados de Estudio</option>
+                            <option value="3">Pension</option>
+                            <option value="4">Otras Consultas</option>
+                          </select>
+                        
+                    </p>
+                    <p class="block">
+                       <label class="label">Queremos resolver sus dudas</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="button" class="btn btn-primary">
+                            Enviar
+                        </button>
+                    </p>
+                </form>
             </div>
-          </div>
+            <div class="contact-info" style="">
+                <h4>Mas Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Av. El Bosque 430 Urb. Canto Rey, San Juan de Lurigancho</li>
+                    <li><i class="fas fa-phone"></i> (01) 387-5469</li>
+                    <li><i class="fa fa-whatsapp"></i> +51 946 192 081</li>
+                    <li><i class="fas fa-envelope-open-text"></i> info@sanagustinsjl.edu.pe</li>
+                </ul>
+                <p>Horario de atención</p>
+                <p>Lunes - Viernes: 7:30 AM - 4:00 PM <br>
+                   Sabados: 8:00 AM - 12:00 AM</p>
+            </div>
         </div>
 
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto" src="img-sa/vision.png" alt="">
-            <h4 style="color: #A66E24;">Visión Institucional</h4>
-            <div class="col-lg-11 mx-auto text-center">
-
-              <h2>Contácta con nosotros</h2>
-              <p>Te invitamos a realizar las consultas que deses realizar</p>
-              <br>
-              <p>Responderemos tus dudas en la brevedad</p>
-              <p>Seleccione el tipo de consulta</p>
-              <div class="form-floating" style="margin-top: -20px;">
-              <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                <option value="1">Matricula</option>
-                <option value="2">Certificados de Estudio</option>
-                <option value="3">Pension</option>
-                <option value="4">Otras Consultas</option>
-              </select>
-              <label for="floatingSelect">Elige una de las opciones</label>
-            </div>
-                <br><p style="margin-top: -10px;">Nombres y Apellidos</p>
-            <div class="form-floating" style="margin-top: -20px;">
-            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
-            <label for="floatingInputGrid">Ingrese sus Datos</label>
-          </div>
-                <br><p style="margin-top: -10px;">Celular</p>
-            <div class="form-floating" style="margin-top: -20px;">
-            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
-            <label for="floatingInputGrid">Ingrese su Número de Contácto</label>
-          </div>
-                <br><p style="margin-top: -10px;">Correo Electrónico</p>
-            <div class="form-floating" style="margin-top: -20px;">
-            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
-            <label for="floatingInputGrid">Ingrese su Correo Electrónico</label>
-          </div>
-                <br><p style="margin-top: -10px;">Queremos resolver sus dudas</p>
-                <div class="form-floating" style="margin-top: -20px;">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px"></textarea>
-            <label for="floatingTextarea">Ingrese Aqui sus Preocupaciones</label>
-                </div>
-              <button class="btn btn-primary" type="submit" style="margin-bottom: -50px;">Enviar Consulta</button>
-
-             <br>
-            </div>
-          </div>
-        </div>
-
-      </div>
     </div>
-  </section>
 
-    <section id="Contact">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-4" style="margin-left: -150px; " >
-            <h2>Telefono</h2>
-              <img src="img-sa/telefono.png" style="width:30px;">
-               <p style="margin-left:35px; margin-top:-28px;">387-5469</p>
-            <h2>WhatsApp</h2>
-              <img src="img-sa/whats.png" style="width:30px;">
-               <p style="margin-left:35px; margin-top:-28px;">+51 946 192 081</p>
-            <h2>Correo Electronico</h2>
-              <img src="img-sa/correo.png" style="width:30px;">
-               <p style="margin-left:35px; margin-top:-28px;">info@sanagustinsjl.edu.pe</p>
-            <h2>Horario de Atención</h2>
-              <img src="img-sa/reloj.png" style="width:45px;">
-               <p style="margin-left:55px; margin-top:-50px;">Lunes - Viernes: 7:30 AM - 4:00 PM</p><br>
-               <p style="margin-left:55px; margin-top:-45px;">Sabados: 8:00 AM - 12:00 AM</p>
-            <h2>Area Administrativa</h2>
-              <img src="img-sa/empleados.png" style="width:45px;">
-               <p style="margin-left:55px; margin-top:-50px;">Arana Huaman, Luis Enrique</p><br>
-               <p style="margin-left:55px; margin-top:-45px;">Cuadros Ñañes, Martha Teresa</p>
-            <h2>Direccion</h2>
-            <img src="img-sa/mapa.png" style="width:30px;">
-               <p style="margin-left:35px; margin-top:-28px;">Av. El Bosque 430 Urb. Canto Rey, San Juan de Lurigancho</p>
-          </div>
-          <div class="col-4">
-            <h2>Contácta con nosotros</h2>
-            <p>Te invitamos a realizar las consultas que deses realizar</p>
-            <br>
-            <p>Responderemos tus dudas en la brevedad</p>
-            <p>Seleccione el tipo de consulta</p>
-            <div class="form-floating" style="margin-top: -20px;">
-            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-              <option value="1">Matricula</option>
-              <option value="2">Certificados de Estudio</option>
-              <option value="3">Pension</option>
-              <option value="4">Otras Consultas</option>
-            </select>
-            <label for="floatingSelect">Elige una de las opciones</label>
-          </div>
-              <br><p style="margin-top: -10px;">Nombres y Apellidos</p>
-          <div class="form-floating" style="margin-top: -20px;">
-          <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
-          <label for="floatingInputGrid">Ingrese sus Datos</label>
-        </div>
-              <br><p style="margin-top: -10px;">Celular</p>
-          <div class="form-floating" style="margin-top: -20px;">
-          <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
-          <label for="floatingInputGrid">Ingrese su Número de Contácto</label>
-        </div>
-              <br><p style="margin-top: -10px;">Correo Electrónico</p>
-          <div class="form-floating" style="margin-top: -20px;">
-          <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
-          <label for="floatingInputGrid">Ingrese su Correo Electrónico</label>
-        </div>
-              <br><p style="margin-top: -10px;">Queremos resolver sus dudas</p>
-              <div class="form-floating" style="margin-top: -20px;">
-          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px"></textarea>
-          <label for="floatingTextarea">Ingrese Aqui sus Preocupaciones</label>
-              </div>
-            <button class="btn btn-primary" type="submit" style="margin-bottom: -50px;">Enviar Consulta</button>
-          </div>
-        </div>
+    </div>
 
-      </div>
-    </section>
 
 
 
@@ -502,3 +414,87 @@ body {
   </body>
 
 </html>
+
+<!--
+    <section class="py-5" id="services">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="team-member" style="text-align: justify; ">
+            <div class="col-lg-11 mx-auto">
+            <h2>Telefono</h2>
+              <img src="img-sa/telefono.png" style="width:30px;">
+               <p style="margin-left:35px; margin-top:-28px;">387-5469</p>
+            <h2>WhatsApp</h2>
+              <img src="img-sa/whats.png" style="width:30px;">
+               <p style="margin-left:35px; margin-top:-28px;">+51 946 192 081</p>
+            <h2>Correo Electronico</h2>
+              <img src="img-sa/correo.png" style="width:30px;">
+               <p style="margin-left:35px; margin-top:-28px;">info@sanagustinsjl.edu.pe</p>
+            <h2>Horario de Atención</h2>
+              <img src="img-sa/reloj.png" style="width:45px;">
+               <p style="margin-left:55px; margin-top:-50px;">Lunes - Viernes: 7:30 AM - 4:00 PM</p><br>
+               <p style="margin-left:55px; margin-top:-45px;">Sabados: 8:00 AM - 12:00 AM</p>
+            <h2>Area Administrativa</h2>
+              <img src="img-sa/empleados.png" style="width:45px;">
+               <p style="margin-left:55px; margin-top:-50px;">Arana Huaman, Luis Enrique</p><br>
+               <p style="margin-left:55px; margin-top:-45px;">Cuadros Ñañes, Martha Teresa</p>
+            <h2>Direccion</h2>
+            <img src="img-sa/mapa.png" style="width:30px;">
+               <p style="margin-left:35px; margin-top:-28px;">Av. El Bosque 430 Urb. Canto Rey, San Juan de Lurigancho</p>
+            <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-8">
+          <div class="team-member">
+            <div class="col-lg-11 mx-auto ">
+
+              <h2>Contácta con nosotros</h2>
+              <p>Te invitamos a realizar las consultas que deses realizar</p>
+              <br>
+              <p>Responderemos tus dudas en la brevedad</p>
+              <p>Seleccione el tipo de consulta</p>
+              <div class="form-floating" style="margin-top: -20px;">
+              <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                <option value="1">Matricula</option>
+                <option value="2">Certificados de Estudio</option>
+                <option value="3">Pension</option>
+                <option value="4">Otras Consultas</option>
+              </select>
+              <label for="floatingSelect">Elige una de las opciones</label>
+            </div>
+                <br><p style="margin-top: -10px;">Nombres y Apellidos</p>
+            <div class="form-floating" style="margin-top: -20px;">
+            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
+            <label for="floatingInputGrid">Ingrese sus Datos</label>
+          </div>
+                <br><p style="margin-top: -10px;">Celular</p>
+            <div class="form-floating" style="margin-top: -20px;">
+            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
+            <label for="floatingInputGrid">Ingrese su Número de Contácto</label>
+          </div>
+                <br><p style="margin-top: -10px;">Correo Electrónico</p>
+            <div class="form-floating" style="margin-top: -20px;">
+            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
+            <label for="floatingInputGrid">Ingrese su Correo Electrónico</label>
+          </div>
+                <br><p style="margin-top: -10px;">Queremos resolver sus dudas</p>
+                <div class="form-floating" style="margin-top: -20px;">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px"></textarea>
+            <label for="floatingTextarea">Ingrese Aqui sus Preocupaciones</label>
+                </div>
+              <button class="btn btn-primary" type="submit" style="margin-bottom: -50px;">Enviar Consulta</button>
+
+             <br>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+-->
