@@ -213,7 +213,7 @@ body {
               <img class="mx-auto"  src="img-sa/vision.png" alt="">
               <h4 style="color: #fff;">LA INSTITUCIÓN EDUCATIVA PRIVADA «SAN AGUSTÍN»</h4>
               <div class="col-lg-11 mx-auto text-center">
-              <p class="large text-muted" style="text-align: justify;">La Institución Educativa Privada “San Agustín”,
+              <p class="large text-muted" style="text-align: justify; color: #fff!important;">La Institución Educativa Privada “San Agustín”,
                   fue creado en el año de 1991, con la RD N° 0945 del 30-09-91,
                   con el lema “Forjando el presente y futuro con disciplina y trabajo”
                   gestionado ante la UGEL 05 ex USE 03 del distrito de San Juan de Lurigancho por el
@@ -228,7 +228,7 @@ body {
               <img class="mx-auto"  src="img-sa/mision.png" alt="">
               <h4 style="color: #fff;">Misión Institucional</h4>
               <div class="col-lg-11 mx-auto text-center">
-              <p class="large text-muted" style="text-align: justify;">“Somos una institución educativa de
+              <p class="large text-muted" style="text-align: justify; color: #fff!important;">“Somos una institución educativa de
                                           gestión privada, que brinda servicios
                                           educativos de calidad en los Niveles de
                                           Educación Inicial, Primaria y Secundaria
@@ -251,7 +251,7 @@ body {
               <img class="mx-auto" src="img-sa/vision.png" alt="">
               <h4 style="color: #fff;">Visión Institucional</h4>
               <div class="col-lg-11 mx-auto text-center">
-              <p class="large text-muted" style="text-align: justify;">“Ser reconocidos nacional e
+              <p class="large text-muted" style="text-align: justify; color: #fff!important;">“Ser reconocidos nacional e
                                           internacionalmente como una Entidad
                                           Educativa Líder en la formación científica
                                           y humanística, centrada en la formación
