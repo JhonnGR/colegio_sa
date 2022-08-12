@@ -418,7 +418,7 @@ header
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
   color: #f5a425!important;
-  padding-left: 25px;
+  padding-left: 15px;
 }
 
 .header-area .main-nav .nav li.has-sub ul li a:hover:before {

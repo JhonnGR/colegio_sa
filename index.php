@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <title>I.E.P. San Agustín de Hipona</title>
-    <link rel="icon" href="img/logo.png">
+    <link rel="icon" href="img/logo2.png">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
