@@ -44,7 +44,8 @@ ul {
 }
 
 .contact-wrapper {
-    box-shadow: 0 0 20px 0 #cd5f6c;;
+    box-shadow: 0 0 20px 0 #cd5f6c;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .contact-wrapper > * {
