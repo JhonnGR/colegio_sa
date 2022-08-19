@@ -1,0 +1,27 @@
+.fondo1{
+	background-image: url(../images/service-item-bg.jpg);	
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
+.fondo2{
+	background-image: url(../images/product-item-bg.jpg);	
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
+
+.imagenes{
+	margin-top: 10px;
+	margin-bottom: 20px;
+    width: 100px;
+    height: auto;
+}

@@ -46,7 +46,8 @@
     <link href="fontawesome/css/all.css" rel="stylesheet" type="text/css" />
     <link href="fontawesome/css/solid.css" rel="stylesheet" type="text/css" />
 
-
+<!-- PAQUETE DE formulario (CONTACTO)-->
+    <link rel="stylesheet" href="css/fomu.css">
 
 
   </head>
@@ -201,41 +202,33 @@ body {
     </div>
 </div>
 
-    <!-- Descripción-->
-      <section class="py-5" id="services">
-      <div class="container">
 
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <h2 class="section-heading text-uppercase">LA INSTITUCIÓN EDUCATIVA PRIVADA «SAN AGUSTÍN»</h2>
-
-              <div>
-                <h5 style="text-align: justify;">La Institución Educativa Privada “San Agustín”,
-                  fue creado en el año de 1991, con la RD N° 0945 del 30-09-91,
-                  con el lema “Forjando el presente y futuro con disciplina y trabajo”
-                  gestionado ante la UGEL 05 ex USE 03 del distrito de San Juan de Lurigancho por el
-                  Dr. Félix De La Cruz Moreno, siendo su  propósito el de brindar un servicio educativo
-                  de calidad a un costo social tanto en los niveles de educación Inicial, Primaria y Secundaria  de menores. </h5>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-    <!-- vision y mision-->
+    <!-- Parte del cuerpo del inicio-->
       <section class="py-5" id="services">
       <div class="container">
 
         <div class="row">
-
-          <div class="col-sm-6">
-            <div class="team-member">
-              <img class="mx-auto" style="width: 150px; height: auto;" src="img-sa/mision.png" alt="">
-              <h4 style="color: #A66E24;">Misión Institucional</h4>
-              <div class="col-lg-8 mx-auto text-center">
-              <p class="large text-muted" style="text-align: justify;">“Somos una institución educativa de
+          <div class="col-sm-4" >
+            <div class="team-member relleno" style="background-color: #7B1523; background-image: ;">
+              <img class="mx-auto"  src="img-sa/vision.png" alt="">
+              <h4 style="color: #fff;">LA INSTITUCIÓN EDUCATIVA PRIVADA «SAN AGUSTÍN»</h4>
+              <div class="col-lg-11 mx-auto text-center">
+              <p class="large text-muted" style="text-align: justify; color: #fff!important;">La Institución Educativa Privada “San Agustín”,
+                  fue creado en el año de 1991, con la RD N° 0945 del 30-09-91,
+                  con el lema “Forjando el presente y futuro con disciplina y trabajo”
+                  gestionado ante la UGEL 05 ex USE 03 del distrito de San Juan de Lurigancho por el
+                  Dr. Félix De La Cruz Moreno, siendo su  propósito el de brindar un servicio educativo
+                  de calidad a un costo social tanto en los niveles de educación Inicial, Primaria y Secundaria  de menores.</p>
+                  <br>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member relleno" style="background-color: #BA7115;">
+              <img class="mx-auto"  src="img-sa/mision.png" alt="">
+              <h4 style="color: #fff;">Misión Institucional</h4>
+              <div class="col-lg-11 mx-auto text-center">
+              <p class="large text-muted" style="text-align: justify; color: #fff!important;">“Somos una institución educativa de
                                           gestión privada, que brinda servicios
                                           educativos de calidad en los Niveles de
                                           Educación Inicial, Primaria y Secundaria
@@ -248,16 +241,17 @@ body {
                                           valores, gestión de riesgos, de
                                           convivencia democrática en pro de una
                                           cultura de paz”.</p>
+                                          <br>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-6">
-            <div class="team-member">
-              <img class="mx-auto" style="width: 150px; height: auto;" src="img-sa/vision.png" alt="">
-              <h4 style="color: #A66E24;">Visión Institucional</h4>
-              <div class="col-lg-8 mx-auto text-center">
-              <p class="large text-muted" style="text-align: justify;">“Ser reconocidos nacional e
+          <div class="col-sm-4">
+            <div class="team-member relleno" style="background-color: #7B1523;">
+              <img class="mx-auto" src="img-sa/vision.png" alt="">
+              <h4 style="color: #fff;">Visión Institucional</h4>
+              <div class="col-lg-11 mx-auto text-center">
+              <p class="large text-muted" style="text-align: justify; color: #fff!important;">“Ser reconocidos nacional e
                                           internacionalmente como una Entidad
                                           Educativa Líder en la formación científica
                                           y humanística, centrada en la formación
@@ -270,6 +264,7 @@ body {
                                           una comunidad educativa comprometida
                                           con el mejoramiento institucional y el de
                                           su entorno”.</p>
+                                          <br>
               </div>
             </div>
           </div>
@@ -278,208 +273,81 @@ body {
       </div>
     </section>
 
+    <!--Form contact-->
 
+    <div class="container" style="max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    margin-top: -50px;">
 
+        <div class="content">
+        <h1 class="logo" style="color: #A66E24;">Contacto</h1>
 
-    <!-- Services -->
-  <section class="py-5" id="services">
-  <div class="container">
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contactanos</h3>
+                <form action="">
+                    <p>
+                        <label class="label">Nombres</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label class="label">Correo</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label class="label">Celular</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label class="label">Elige una de las opciones</label>
+                          <select class="form-select" style="margin-top: 20px;  border: 1px solid #d63031 !important; color: #A66E24 !important;" id="floatingSelect" aria-label="Floating label select example">
+                            <option value="0">--Seleccione una opción--</option>
+                            <option value="1">Matricula</option>
+                            <option value="2">Certificados de Estudio</option>
+                            <option value="3">Pension</option>
+                            <option value="4">Otras Consultas</option>
+                          </select>
 
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="team-member">
-          <img class="mx-auto" style="width: 150px; height: auto;" src="img-sa/te.png" alt="">
-          <h4 style="color: #A66E24;">Para resolver sus dudas</h4>
-          <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">----- Teléfono : 387-5469 / WhatsApp : 946 192 081 ----- Email: info@sanagustinsjl.edu.pe Dirección: Av. El Bosque 430 Urb. Canto Rey, San Juan de Lurigancho</p>
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenter1">
-          Leer mas
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="ModalCenter1" tabindex="-1" role="dialog" aria-labelledby="ModalCenter1Title" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="ModalLong1Title" style="color: #642529;     padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x); font-weight: bold;">Para resolver sus dudas e inquietudes</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <img src="img-sa/te.png" alt="">
-                  <p>----- Teléfono : 387-5469 / WhatsApp : 946 192 081 ----- Email: info@sanagustinsjl.edu.pe Dirección: Av. El Bosque 430 Urb. Canto Rey, San Juan de LuriganchoS</p>
-                </div>
-                <div class="modal-footer">
-                  <ul class="list-inline social-buttons">
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/iepsanagustin/">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=51946192081">
-              <i class="fa fa-whatsapp"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com/confiesate_sanagustinsjl/">
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                </div>
-              </div>
-           </div>
-          </div>
-          </div>
+                    </p>
+                    <p class="block">
+                       <label class="label">Queremos resolver sus dudas</label>
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="button" class="btn btn-primary">
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info" style="">
+                <h4>Mas Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Av. El Bosque 430 Urb. Canto Rey, San Juan de Lurigancho</li>
+                    <li><i class="fas fa-phone"></i> (01) 387-5469</li>
+                    <li><i class="fa fa-whatsapp"></i> +51 946 192 081</li>
+                    <li><i class="fas fa-envelope-open-text"></i> info@sanagustinsjl.edu.pe</li>
+                </ul>
+                <p>Horario de atención</p>
+                <p>Lunes - Viernes: 7:30 AM - 4:00 PM <br>
+                   Sabados: 8:00 AM - 12:00 AM</p>
+            </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="team-member">
-          <img class="mx-auto" style="width: 150px; height: auto;" src="img-sa/infra2.png" alt="">
-          <h4 style="color: #A66E24;">Infraestructura</h4>
-          <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Contamos con laboratorios y salas de computo implementados con tecnología de alta calidad, además de piscinas propias semi olímpica e infantil para clases de natación.</p>
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenter2">
-          Leer mas
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="ModalCenter2" tabindex="-1" role="dialog" aria-labelledby="ModalCenter2Title" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="ModalLong2Title" style="color: #A66E24;">Infraestructura</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <img src="img-sa/infra2.png" alt="">
-                <P>Contamos con laboratorios y salas de computo implementados con tecnología de alta calidad, además de piscinas propias semi olímpica e infantil para clases de natación.</P>
-
-                </div>
-                <div class="modal-footer">
-                  <ul class="list-inline social-buttons">
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/iepsanagustin/">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=51946192081">
-              <i class="fa fa-whatsapp"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com/confiesate_sanagustinsjl/">
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                </div>
-              </div>
-           </div>
-          </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-4">
-        <div class="team-member">
-          <img class="mx-auto" style="width: 150px; height: auto;" src="img-sa/gradu1.png" alt="">
-          <h4 style="color: #A66E24;">Actividades Extracurriculares</h4>
-          <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Serás parte de los campeonatos que realizamos entre distintas instituciones, además de diversos eventos y festividades en toda la etapa estudiantil.</p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenter3">
-          Leer mas
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="ModalCenter3" tabindex="-1" role="dialog" aria-labelledby="ModalCenter3Title" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="ModalLong3Title" style="color: #A66E24;">Actividades Extracurriculares</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-
-                  <div class="modal-body">
-                  <img src="img-sa/gradu1.png" alt="">
-                 <p>Serás parte de los campeonatos que realizamos entre distintas instituciones, además de diversos eventos y festividades en toda la etapa estudiantil.</p>
-                </div>
-                <div class="modal-footer">
-                  <ul class="list-inline social-buttons">
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/iepsanagustin/">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=51946192081">
-              <i class="fa fa-whatsapp"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com/confiesate_sanagustinsjl/">
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                </div>
-              </div>
-           </div>
-          </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- direcctor-->
-  <section class="py-5" id="services" >
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-sm-4">
-        <div class="team-member">
-          <img class="mx-auto" style="width: 250px; height: auto;" src="img-sa/director.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-sm-8">
-        <div class="team-member">
-          <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted" style="font-family: 'Srisakdi', cursive;">“NUESTRA PROPUESTA EDUCATIVA SE SUSTENTA EN LOS PRINCIPIOS DE FORMACIÓN INTEGRAL
-                                                                    Y DE COMPROMISO RECÍPROCO ENTRE LA ESCUELA Y LA FAMILIA CON UN PLAN DE ESTUDIOS
-                                                                    CONTEXTUALIZADO, DEL COLEGIO A LA UNIVERSIDAD, FORMANDO A LOS FUTUROS PROFESIONALES
-                                                                    QUE EL PERÚ NECESITA.”</p>
-          <p class="large text-muted" style=" font-size: 18px;
-                                              text-align: right;
-                                              font-family: Italianno;
-                                              font-weight: 400;
-                                              font-style: normal;">Atte. Félix De La Cruz Moreno.</p>
-          </div>
-        </div>
-      </div>
 
     </div>
-  </div>
-</section>
+
+    </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -505,7 +373,7 @@ body {
                 </a>
               </li>
               <li class="list-inline-item">
-                <a target="_blank" href="https://www.instagram.com/confiesate_sanagustinsjl/">
+                <a target="_blank" href="https://www.instagram.com/colegiosanagustinsjl/">
                   <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
               </li>
@@ -546,3 +414,87 @@ body {
   </body>
 
 </html>
+
+<!--
+    <section class="py-5" id="services">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="team-member" style="text-align: justify; ">
+            <div class="col-lg-11 mx-auto">
+            <h2>Telefono</h2>
+              <img src="img-sa/telefono.png" style="width:30px;">
+               <p style="margin-left:35px; margin-top:-28px;">387-5469</p>
+            <h2>WhatsApp</h2>
+              <img src="img-sa/whats.png" style="width:30px;">
+               <p style="margin-left:35px; margin-top:-28px;">+51 946 192 081</p>
+            <h2>Correo Electronico</h2>
+              <img src="img-sa/correo.png" style="width:30px;">
+               <p style="margin-left:35px; margin-top:-28px;">info@sanagustinsjl.edu.pe</p>
+            <h2>Horario de Atención</h2>
+              <img src="img-sa/reloj.png" style="width:45px;">
+               <p style="margin-left:55px; margin-top:-50px;">Lunes - Viernes: 7:30 AM - 4:00 PM</p><br>
+               <p style="margin-left:55px; margin-top:-45px;">Sabados: 8:00 AM - 12:00 AM</p>
+            <h2>Area Administrativa</h2>
+              <img src="img-sa/empleados.png" style="width:45px;">
+               <p style="margin-left:55px; margin-top:-50px;">Arana Huaman, Luis Enrique</p><br>
+               <p style="margin-left:55px; margin-top:-45px;">Cuadros Ñañes, Martha Teresa</p>
+            <h2>Direccion</h2>
+            <img src="img-sa/mapa.png" style="width:30px;">
+               <p style="margin-left:35px; margin-top:-28px;">Av. El Bosque 430 Urb. Canto Rey, San Juan de Lurigancho</p>
+            <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-8">
+          <div class="team-member">
+            <div class="col-lg-11 mx-auto ">
+
+              <h2>Contácta con nosotros</h2>
+              <p>Te invitamos a realizar las consultas que deses realizar</p>
+              <br>
+              <p>Responderemos tus dudas en la brevedad</p>
+              <p>Seleccione el tipo de consulta</p>
+              <div class="form-floating" style="margin-top: -20px;">
+              <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                <option value="1">Matricula</option>
+                <option value="2">Certificados de Estudio</option>
+                <option value="3">Pension</option>
+                <option value="4">Otras Consultas</option>
+              </select>
+              <label for="floatingSelect">Elige una de las opciones</label>
+            </div>
+                <br><p style="margin-top: -10px;">Nombres y Apellidos</p>
+            <div class="form-floating" style="margin-top: -20px;">
+            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
+            <label for="floatingInputGrid">Ingrese sus Datos</label>
+          </div>
+                <br><p style="margin-top: -10px;">Celular</p>
+            <div class="form-floating" style="margin-top: -20px;">
+            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
+            <label for="floatingInputGrid">Ingrese su Número de Contácto</label>
+          </div>
+                <br><p style="margin-top: -10px;">Correo Electrónico</p>
+            <div class="form-floating" style="margin-top: -20px;">
+            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombres y Apellidos" >
+            <label for="floatingInputGrid">Ingrese su Correo Electrónico</label>
+          </div>
+                <br><p style="margin-top: -10px;">Queremos resolver sus dudas</p>
+                <div class="form-floating" style="margin-top: -20px;">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px"></textarea>
+            <label for="floatingTextarea">Ingrese Aqui sus Preocupaciones</label>
+                </div>
+              <button class="btn btn-primary" type="submit" style="margin-bottom: -50px;">Enviar Consulta</button>
+
+             <br>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+-->
