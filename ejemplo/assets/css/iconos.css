@@ -1,5 +1,5 @@
 .buttons {
-  min-width: 700px;
+  min-width: 100px;
   display: flex;
   justify-content: space-around;
 }
@@ -11,7 +11,7 @@
   height: 60px;
   line-height: 60px;
   text-align: center;
-  background: #314652;
+  background: #a12c2f;
   color: #f1f1f1;
   border-radius: 50%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);

@@ -91,7 +91,7 @@ html, body {
 
 a {
   text-decoration: none !important;
-  color: #3CF;
+  color: #fff;
 }
 
 a:hover {
@@ -207,7 +207,7 @@ header
 */
 
 .sub-header {
-  background-color: #1f272b;
+  background-color: #a12c2f;
   position: relative;
   z-index: 1111;
 }
