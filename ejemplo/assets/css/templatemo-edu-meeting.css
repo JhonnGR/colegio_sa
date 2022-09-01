@@ -889,7 +889,8 @@ upcoming meetings
 */
 
 section.upcoming-meetings {
-  background-image: url(../images/meetings-bg.jpg);
+  /*background-image: url(../images/meetings-bg.jpg);*/
+  background-image: url(../img/fondogris1.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1108,7 +1109,8 @@ courses
 */
 
 section.our-courses {
-  background-image: url(../images/meetings-bg.jpg);
+  /*background-image: url(../images/meetings-bg.jpg);*/
+  background-image: url(../img/fondogris1.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1326,7 +1328,8 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/meetings-bg.jpg);
+  /*background-image: url(../images/meetings-bg.jpg);*/
+  background-image: url(../img/fondogris1.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
