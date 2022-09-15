@@ -128,184 +128,88 @@
         
 
 <!-- Inicia bloques de informacion-->
-  <section>
-    <h2 class="section-heading text-uppercase text-center" style="font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    color: #A66E24;
-    font-family: 'Work Sans';
-    font-weight: bold;
-    margin-button: 20px;">Educación Inicial</h2>
-  <div class="container">
-  <div class="clearfix">
-  <div class="col-md-8 float-md-end mb-3 ms-md-3">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/1.jpg" class="d-block w-100" height= "200px" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/inicial.jpg" class="d-block w-100" height="250px" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/2.jpg" class="d-block w-100" height="200px" alt="...">
-    </div>
-  </div>
-</div>
-
-  </div>
-  <div class="text-justify">
-     <p>A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.<br></p>
-     <p>En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y expresar con mayor seguridad sus emociones, y a regularlas progresivamente con el acompañamiento del docente. A medida que fortalecen estos aspectos desarrollan sus habilidades sociales, aprenden a convivir con los demás y a cuidar los espacios y recursos comunes que utilizan.<br></p>
-     <p>De igual manera, aprenden a respetar y a construir acuerdos y normas de convivencia. En el proceso de su desarrollo psicomotriz, los niños y las niñas viven su cuerpo a través de la libre exploración y experimentación de sus movimientos, posturas, desplazamientos y juegos, en interacción permanente con su entorno y ambiente.<br></p>
-</div>
-</div>
-</div>
-
-<div class="container text-center">
-  <div class="team-member">
-    <img class="mx-auto" style="width: 100px; height: auto;" class="img-fluid" src="img-sa/graduate-cap.png" alt="">
-  </div>
-</div>
-</section>
-
-<!---Start Informacion--->
-<section id="informacion" style="margin-top: -330px;">
-  <div class="container">
-  <div class="row justify-content-start">
-    <div class="col-md-4">
-      <div class="team-member">
-      <img class="mx-auto" style="width: 200px; height: auto;" src="img/universidad.png" alt="">
-      <h4 style="color: #A66E24;">Infraestructura</h4>
-</div>
-</div>
-    <div class="col-md-8">
-      <div class="clearfix">
-        <div class="mx-auto col-md-8 float-md-end mb-3 ms-md-3">
-     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/3.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
-     </div>
-    <div class="text-justify">
-    <p>
-   A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.
-En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y expresar con mayor seguridad sus emociones, y a regularlas progresivamente con el acompañamiento del docente. A medida que fortalecen estos aspectos desarrollan sus habilidades sociales, aprenden a convivir con los demás y a cuidar los espacios y recursos comunes que utilizan.
-  </p>
-</div>
-  </div>
-</div>
-
-</div>
-</div>
-</section>
-<!---End Informacion--->
-
-<!---Start Socializacion--->
-<section id="socializacion" style="margin-top: -290px;">
-  <div class="container">
-<div class="row justify-content-start">
-<div class="col-md-8">
-  <div class="clearfix">
-    <div class="mx-auto col-md-8 float-md-start mb-3 ms-md-3">
-     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/3.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
-     </div>
-    <div class="text-justify">
-    <p>
-     A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.
-En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y expresar con mayor seguridad sus emociones, y a regularlas progresivamente con el acompañamiento del docente. A medida que fortalecen estos aspectos desarrollan sus habilidades sociales, aprenden a convivir con los demás y a cuidar los espacios y recursos comunes que utilizan.
-  </p>
-  </div>
-  </div>
-    </div>
-<div class="col-md-4">
-      <div class="team-member">
-      <img class="mx-auto" style="width: 200px; height: auto;" src="img/que-habla.png" alt="">
-      <h4 style="color: #A66E24;">Socializacion</h4>
-
-    </div>
-    </div>
-    </div>
- </div>
-</section>
-<!---End Socializacion--->
-
-<!---Start Utiles--->
-<section id="utiles" style="margin-top: -290px;">
-  <div class="container">
-<div class="row justify-content-end">
- <div class="col-md-4">
-      <div class="team-member">
-      <img class="mx-auto" style="width: 200px; height: auto;" src="img/mochila.png" alt="">
-      <h4 style="color: #A66E24;">Utiles Escolares</h4>
-    </div>
-    </div>
-  <div class="col-md-8">
-      <div class="clearfix">
-        <div class="mx-auto col-md-8 float-md-end mb-3 ms-md-3">
-     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/3.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
-     </div>
-    <div class="text-justify">
-    <p>
-     A partir del proceso de individuación iniciado en los primeros años de vida, los niños y las niñas de estas edades HAN LOGRADO DIFERENCIARSE DE LOS DEMÁS, Y EMPIEZAN UN PROCESO DE AFIRMACIÓN DE SU IDENTIDAD, DESDE EL CONOCIMIENTO DE SUS CARACTERÍSTICAS PERSONALES Y LA VALORACIÓN DE SÍ MISMOS.
-En este proceso, continúan desarrollando su autonomía, aprenden a reconocer y expresar con mayor seguridad sus emociones, y a regularlas progresivamente con el acompañamiento del docente. A medida que fortalecen estos aspectos desarrollan sus habilidades sociales, aprenden a convivir con los demás y a cuidar los espacios y recursos comunes que utilizan.aster egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-  </p>
-</div>
-  </div>
-</div>
-    </div>
-</div>
-</section>
-<!---End Utiles--->
-
-<div class="container text-center" style="margin-top: -150px;">
-  <div class="team-member">
-    <img class="mx-auto" style="width: 100px; height: auto;" class="img-fluid" src="img-sa/graduate-cap.png" alt="">
-  </div>
-</div>
-
-<!--Start malla curricural -->
-<section id="malla" style="margin-top: -200px;">
+  <section id="fondos">
   <div class="container text-center">
-  <div class="team-member">
-    <img class="mx-auto" style="width: 800px; height: auto;" class="img-fluid" src="img-sa/malla.png" alt="">
+  <div class="row align-items-start">
+    <div class="col-md-4">
+      <h2 style="text-align: left;">¿Por qué elegir el colegio
+San Agustin de Hipona?</h2>
+      <p style="text-align: justify;">
+Nuestra institución tiene 25 años formando estudiantes integrales. Educamos de acuerdo a cada etapa de su desarrollo, en los diversos ámbitos de la ciencia, la tecnología, el arte y el deporte.
+<br>
+<br>
+Promovemos una sólida formación integral con exigencia académica bajo un clima de convivencia escolar democrático, fomentando prácticas y relaciones solidarias; con el objetivo de que nuestros egresados sean ciudadanos protagonistas del desarrollo que necesita su comunidad y nuestro país en su conjunto.
+      </p>
+    </div>
+    <div class="col-md-8"  style="margin-top: -25px;">
+      <div class="container text-center">
+  <div class="row">
+    <div class="col-7 col-sm-6">
+      <img class="mx-auto" style="width: 350px; height: 280px; border-radius:20px;" class="img-fluid" src="img/Fondo1.jpg" alt="">
+      <div class="text-justify" style="margin-left: 35px; margin-top: -250px; color: white;">
+      <img class="img-fluid" style="width:60px; height:60px;" src="img/ciudadano.png">
+      <h3 style="font-weight: bolder;"> Ciudadania<br>Protagonica </h3>
+      <p style="text-align: justify;">Formamos estudiantes comprometidos<br> con la solución de los problemas <br> de la comunidad.</p>
+    </div>
+    </div>
+    <div class="col-7 col-sm-6" style="margin-left: -30px;">
+      <img class="mx-auto" style="width: 350px; height: 280px; border-radius:20px;" class="img-fluid" src="img/Fondo2.jpg" alt="">
+      <div class="text-justify" style="margin-left: 35px; margin-top: -250px; color: white;">
+      <img class="img-fluid" style="width:60px; height:60px;" src="img/equipo.png">
+      <h3 style="font-weight: bolder;"> Identidad<br>Cultural </h3>
+      <p style="text-align: justify;">Fomentamos sentimientos de orgullo por nuestro país y su diversidad cultural.</p>
+    </div>
+    </div>
+
+    <!-- Force next columns to break to new line -->
+    <div class="w-100 d-none d-md-block"></div>
+
+    <div class="col-7 col-sm-6" style="margin-top:25px;">
+       <img class="mx-auto" style="width: 350px; height: 280px; border-radius:20px;" class="img-fluid" src="img/Fondo3.jpg" alt="">
+       <div class="text-justify" style="margin-left: 35px; margin-top: -250px; color: white;">
+      <img class="img-fluid" style="width:60px; height:60px;" src="img/investigacion.png">
+      <h3 style="font-weight: bolder;"> Investigación<br>Científica </h3>
+      <p style="text-align: justify;" class="bg-transparent">Formamos estudiantes comprometidos<br> con la solución de los problemas <br> de la comunidad.</p>
+    </div>
+    </div>
+    <div class="col-7 col-sm-6" style="margin-top:25px; margin-left: -30px;">
+       <img class="mx-auto" style="width: 350px; height: 280px; border-radius:20px; " class="img-fluid" src="img/Fondo4.jpg" alt="">
+       <div class="text-justify" style="margin-left: 35px; margin-top: -250px; color: white;">
+      <img class="img-fluid" style="width:60px; height:60px;" src="img/aprendizaje.png">
+      <h3 style="font-weight: bolder;"> Aprendizaje<br>Cooperativo </h3>
+      <p style="text-align: justify;">Formamos estudiantes comprometidos<br> con la solución de los problemas <br> de la comunidad.</p>
+    </div>
+    </div>
   </div>
 </div>
+    </div>
+  </div>
+</div>
+  </section>
+
+<!---Video
+  style="margin-left:50px;"
+style="margin-top:20px; margin-left: 50px;"
+  --->
+
+<section style="margin-top:-120px; background: url('img/f1.jpg') no-repeat; background-size: cover;">
+  <div class="row align-items-center">
+    <div class="col col-md-6" style="margin: 50px;">
+      <video width="650" controls controlsList="nodownload" >
+    <source src="videos-sa/video1.mp4" type="video/mp4" allowfullscreen>
+      </video> 
+    </div>
+    <div class="col col-md-5" style="margin:-50px;" >
+       <h2 style="text-align: justify; color: white; font-weight:bolder;">Comprometidos<br>Con La Educación Inicial</h2>
+
+  <p style="text-align:justify; color: white; font-weight: bolder;">Los profesores mas capaces, con la enseñanza Los profesores mas capaces, con la enseñanza
+  Los profesores mas capaces, con la enseñanza Los profesores mas capaces, con la enseñanza
+  Los profesores mas capaces, con la enseñanza Los profesores mas capaces, con la enseñanza
+  Los profesores mas capaces, con la enseñanza Los profesores mas capaces, con la enseñanza
+  Los profesores mas capaces, con la enseñanza Los profesores mas capaces, con la enseñanza</p>
+    </div>
+  </div>
 </section>
-<!--End malla curricural -->
 <footer>
       <div class="container">
 
