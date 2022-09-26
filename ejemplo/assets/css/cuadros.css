@@ -1,5 +1,6 @@
 .fondo1{
-	background-image: url(../images/service-item-bg.jpg);	
+	/*background-image: url(../images/service-item-bg.jpg);*/
+    background-image: url(../img/fondorojo.jpg);  	
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -7,9 +8,11 @@
     text-align: center;
     color: #fff;
     padding: 40px;
+    margin: 10px;
 }
 .fondo2{
-	background-image: url(../images/product-item-bg.jpg);	
+	/*background-image: url(../images/product-item-bg.jpg);*/
+    background-image: url(../img/fondoamarillo.jpg);	
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -17,6 +20,7 @@
     text-align: center;
     color: #fff;
     padding: 40px;
+    margin: 10px;
 }
 
 .imagenes{

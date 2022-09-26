@@ -158,7 +158,7 @@ body {
 .main-button-red a {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #881616;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -207,7 +207,7 @@ header
 */
 
 .sub-header {
-  background-color: #a12c2f;
+  background-color: #881616;
   position: relative;
   z-index: 1111;
 }
@@ -338,7 +338,7 @@ header
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
-  color: #a12c2f;
+  color: #881616;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -780,7 +780,8 @@ services
 }
 
 .services .item {
-  background-image: url(../images/service-item-bg.jpg);
+  /*background-image: url(../images/service-item-bg.jpg);*/
+  background-image: url(../img/fondorojo.jpg);  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
