@@ -187,10 +187,7 @@ Promovemos una sólida formación integral con exigencia académica bajo un clim
 </div>
   </section>
 
-<!---Video
-  style="margin-left:50px;"
-style="margin-top:20px; margin-left: 50px;"
-  --->
+<!---Video--->
 
 <section style="margin-top:-120px; background: url('img/f1.jpg') no-repeat; background-size: cover;">
   <div class="row align-items-center">
@@ -210,6 +207,18 @@ style="margin-top:20px; margin-left: 50px;"
     </div>
   </div>
 </section>
+
+<section style="margin-top:-50px; background: url('img/f1.jpg') no-repeat; background-size: cover;">
+  <h2 style="text-align: center; color: white; font-weight:bolder; margin-top:-150px;">Comprometidos<br>Plan de Estudios de Educacion Inicial Año 2023</h2>
+
+  <div class= "container" style="background-color: white; width:650px; height: 550; margin-top:50px;"> 
+    <img src="img-sa/malla.png" class="img-fluid" >
+
+
+  </div>
+  
+</section>
+
 <footer>
       <div class="container">
 
