@@ -145,7 +145,7 @@ Promovemos una sólida formación integral con exigencia académica bajo un clim
       <div class="container text-center">
   <div class="row">
     <div class="col-7 col-sm-6">
-      <img class="mx-auto" style="width: 350px; height: 280px; border-radius:20px;" class="img-fluid" src="img/Fondo1.jpg" alt="">
+      <img class="mx-auto img-fluid" style="width: 350px; height: 280px; border-radius:20px;" src="img/Fondo1.jpg" alt="">
       <div class="text-justify" style="margin-left: 35px; margin-top: -250px; color: white;">
       <img class="img-fluid" style="width:60px; height:60px;" src="img/ciudadano.png">
       <h3 style="font-weight: bolder;"> Ciudadania<br>Protagonica </h3>
@@ -217,7 +217,7 @@ Promovemos una sólida formación integral con exigencia académica bajo un clim
 
   </div>
   
-</section>
+</section> 
 
 <footer>
       <div class="container">
