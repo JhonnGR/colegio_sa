@@ -896,7 +896,7 @@ section.upcoming-meetings {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 230px;
+  padding-top: 420px;
   padding-bottom: 110px;
 }
 
@@ -1799,7 +1799,7 @@ responsive
   }
 
   section.upcoming-meetings {
-    padding-top: 400px;
+    padding-top: 580px;
   }
 
   section.upcoming-meetings .categories {
