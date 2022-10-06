@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>.::Personal Agustiniano - I.E.P. San Agustín de Hipona::.</title>
+    <link rel="icon" href="assets/img/logo2.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- PAQUETE DE fontawesome (iconos)-->
+    <link href="fontawesome/css/all.css" rel="stylesheet" type="text/css" />
+    <link href="fontawesome/css/solid.css" rel="stylesheet" type="text/css" />
+
+    <!-- paquete de css de footer -->   
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <!-- CSS de profesores -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/carr-prof.css">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/cuadros.css"> <!-- diseño de cuadros -->
+    <link rel="stylesheet" href="assets/css/fomu.css"> <!-- diseño del formulari -->
+    <link rel="stylesheet" href="assets/css/iconos.css"> <!-- diseño del iconos (footer) --> 
+
+        <!-- paquete de css de footer -->   
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+
+  </head>
+
+  <body id="page-top">
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark " id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo-membrete.png" width="300" height="70"/></a>
+        <div class="row">
+
+          <div class="col-md-8 col-sm-12 mx-auto">
+
+              <p> <b>LIBRO DE RECLAMACIONES VIRTUAL</b> <br>
+                Conforme a lo establecido en el Código de Protección y Defensa del Consumidor,
+                esta institución cuenta con un Libro de Reclamaciones Virtual a su disposición.</p>
+
+
+          </div>
+
+          <div class="col-md-4 col-sm-12 mx-auto">
+            <center>
+              <a href="index.html" class="btn btn-primary btn-lg" style="background: #881616; border-color: #881616;"><i class="fas fa-undo-alt"></i> Regresar...</a>
+            </center>
+
+          </div>
+      </div>
+
+      </div>
+    </nav>
+
+    <section class="meetings-page2" style="padding-top:50px">
+        <div class="container">
+           <!-- DATOS DEL PADRE-->
+
+        <div class="container bg-light" style="padding-top:50px; border-radius: 20px;" > <h1 class="text-center " style="font-family: 'Acme', sans-serif;" >Formato de Hoja de Reclamación del Libro de Reclamaciones</h1><hr>
+
+        <form action="enviartrabajo.php"  method="post" name="formulario" id="formulario" enctype="multipart/form-data"  style="padding-bottom: 30px; ">
+        <div class="form-row">
+            <h4 class="text-center " style="font-family: 'Acme', sans-serif;" ><u>Identificación del Padre y/o Apoderado</u></h4> <br>
+          <div class="col-md-12 mb-3">
+
+          </div>
+          <div class="col-md-6 mb-3">
+            <label  for="validationTooltip01">Nombres</label>
+            <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Ingrese sus nombres..." required>
+
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip02">Apellidos</label>
+            <input type="text" class="form-control" placeholder="Ingrese sus apellidos..." name="Apellido" id="Apellido" required>
+
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip03">DNI</label>
+            <input type="text" class="form-control" name="DNI" id="DNI" placeholder="N° Documento De Identidad" required>
+
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip05">Fecha Nacimiento</label>
+            <input type="date" class="form-control" name="fecha_de_nacimiento" id="fecha_de_nacimiento" value="0000-00-00" required>
+
+
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationTooltip05">Celular</label>
+          <input type="text" class="form-control" name="celular" id="celular" placeholder="999 999 999" required>
+
+        </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip03">Correo Electronico</label>
+            <input type="text" class="form-control" name="correo" id="correo" placeholder="ejemplo@gmail.com" required>
+
+          </div>
+            <div class="col-md-6 mb-3">
+
+              <div class="form-group">
+            <label for="sel1">Domicilio</label>
+            <input type="text" class="form-control" name="grado_academico" id="grado_academico" placeholder=" Grado Academico" required>
+
+          </div>
+          </div>
+        <!--DETALLE DEL RECLAMO-->
+          <div class="form-row">
+              <h4 class="text-center " style="font-family: 'Acme', sans-serif;" ><u>Detalle del reclamo y/o pedido del Padre y/o Apoderado</u></h4> <br>
+            <div class="col-md-12 mb-3">
+
+            </div>
+            <div class="col-md-12 mb-3">
+              <div class="form-group">
+                <label for="sel">Tipo de Reclamación</label>
+                <select class="form-control" id="reclamo" name="reclamo">
+                    <option>Seleccione tipo de reclamo...</option>
+                 <option value="Queja">Queja</option>
+                  <option value="Reclamo">Reclamo</option>
+                  <option value="Recomendacion">Recomendación</option>
+                </select>
+              </div>
+
+            </div>
+
+
+            <div class=" col-md-12 mb-3">
+            <label for="validationTextarea">Descripción</label>
+            <textarea class="form-control " name="descripcion" id="descripcion" placeholder="Ingrese su descripción" ></textarea>
+
+          </div>
+
+          <div class=" col-md-12 mb-3">
+          <label for="validationTextarea">Pedido</label>
+          <textarea class="form-control " name="descripcion" id="descripcion" placeholder="Ingrese su descripción" ></textarea>
+          </div>
+
+        </div>
+        <br>
+
+
+
+        <!--DETALLE DEL RECLAMO-->
+          <div class="form-row">
+              <h4 class="text-center " style="font-family: 'Acme', sans-serif;" ><u>Observaciones y acciones tomadas por la Entidad Educativa.</u></h4> <br>
+            <div class="col-md-12 mb-3">
+
+            </div>
+            <div class="col-md-12 mb-3">
+            <p>La respuesta a la presente será atendida mediante correo electrónico a
+              la dirección que usted ha consignado en el presente formulario de reclamación.</p>
+            </div>
+
+
+            <div class=" col-md-12 mb-3">
+
+
+          </div>
+
+
+        </div>
+
+        <center>
+           <input class="btn btn-primary" style="background: #881616; border-color: #881616;" type="submit" value="Enviar Reclamo">
+        </center>
+        </form>
+
+        </div>
+
+
+        </div>
+    </section>
+
+  <section class="contact-us">
+    <footer >
+    <div class="contenido"> 
+      <div class="main-content">
+        <div class="left2 box">
+          <h2 style="color: #1e1e1e;">Nosotros</h2>
+          <div class="content">
+            <p>Nuestra propuesta educativa se sustenta en los principios de formación integral y de compromiso recíproco entre la escuela y la familia con un plan de estudios contextualizado, del colegio a la universidad, formando a los futuros profesionales que el Perú necesita. </p>
+            <div class="social">
+              <a target="_blank" href="https://www.facebook.com/iepsanagustin/"><span style=" color:  white;" class="fab fa-facebook-f"></span></a>
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=51946192081"><span style=" color:  white;" class="fa fa-whatsapp"></span></a>
+              <a target="_blank" href="https://www.instagram.com/colegiosanagustinsjl/"><span style=" color:  white;" class="fab fa-instagram"></span></a>
+              <a target="_blank" href="https://www.youtube.com/channel/UCxtLsq7-7f_MBLIRHO5ZQsQ"><span style=" color:  white;" class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="center box">
+          <h2 style="color: #1e1e1e;">Ubicación</h2>
+          <div class="content">
+            <div class="place">
+              <span ss="email">
+              <span style="color: white;" class="fas fa-map-marker-alt"></span>
+              <span class="text" style="color: #2a2a2a;">Av. El Bosque 430 Urb. Canto Rey, S.J.L.</span>
+            </div>
+            <div class="phone">
+              <span ss="email">
+              <span style="color: white;" class="fas fa-phone-alt"></span>
+              <span class="text" style="color: #2a2a2a;">(01) 213-7277</span>
+            </div>
+            <div class="email">
+              <span style="color: white;" class="fas fa-envelope"></span>
+              <span class="text" style="color: #2a2a2a;">info@sanagustinsjl.edu.pe</span>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="bottom">
+        <center>
+          <span class="credit">DESARROLLADO POR 
+            <a target="_blank" href="#">DPTO. SISTEMAS</a> | COPYRIGHT </span>
+          <span class="far fa-copyright"></span><span> IEP. SAN AGUSTÍN SJL. 2022</span>
+        </center>
+      </div>
+    </div>
+    </footer>
+
+  </section>
+
+
+   <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+   <!-- js de footer -->   
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/fd7be7c1fb.js" crossorigin="anonymous"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/carrusel.js"></script>
+
+  </body>
+
+
+
+
+</html>
