@@ -104,7 +104,7 @@
                               <ul class="sub-menu">
                                   <li><a href="noticias.html">Noticias</a></li>
                                   <li><a href="meeting-details.html">Testimonios</a></li>
-                                  <li><a href="meetings.html">Soporte</a></li>
+                                  <li><a href="soporte.html">Soporte</a></li>
                                   <li><a href="documentos.html">Documentos</a></li>
                               </ul>
                           </li>
@@ -123,11 +123,11 @@
   <!-- ***** Header Area End ***** -->
 
     <!-- ***** Main Inicio Area Start ***** -->
-  <section class="heading-page header-text" id="top"  style="background-image: url(../ejemplo/assets/img/.jpg);  padding-top: 0px; padding-bottom: 0px;" >
+  <section class="heading-page header-text" id="top"  style="background-image: url(../ejemplo/assets/img/fondo.jpg);">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h2>hols</h2>
+          <h2 style="color: transparent;">Citas</h2>
         </div>
       </div>
     </div>
@@ -402,12 +402,60 @@
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+
 
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/carrusel.js"></script>
 
-  </body>
 
+  </body>
+ 
 
 
 

@@ -9,7 +9,7 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>.::Nivel Inicial - Piscina - I.E.P. San Agustín de Hipona::.</title>
+    <title>.::Noticias Agustininas - I.E.P. San Agustín de Hipona::.</title>
     <link rel="icon" href="assets/img/logo2.png">
 
     <!-- Bootstrap core CSS -->
@@ -104,7 +104,7 @@ https://templatemo.com/tm-569-edu-meeting
                               <ul class="sub-menu">
                                   <li><a href="#Noticias">Noticias</a></li>
                                   <li><a href="meeting-details.html">Testimonios</a></li>
-                                  <li><a href="meetings.html">Soporte</a></li>
+                                  <li><a href="soporte.html">Soporte</a></li>
                                   <li><a href="documentos.html">Documentos</a></li>
                               </ul>
                           </li>
@@ -364,6 +364,52 @@ https://templatemo.com/tm-569-edu-meeting
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
 
 
 
