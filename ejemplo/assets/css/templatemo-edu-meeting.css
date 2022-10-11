@@ -1530,7 +1530,7 @@ section.meetings-page .filters li {
   text-transform: uppercase;
   transition: all .3s;
   cursor: pointer;
-  margin: 0px 3px;
+  margin: 3px 3px;
 }
 
 section.meetings-page .filters ul li.active,
