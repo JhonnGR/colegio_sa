@@ -25,6 +25,10 @@
     <!-- paquete de css de linea del tiempo-->   
     <link rel="stylesheet" href="assets/css/timeline.min.css">    
 
+    <!-- paquete de css de testimonios-->   
+    <link rel="stylesheet" href="assets/css/sss.css">
+    <link rel="stylesheet" href="assets/css/testimonios.css">    
+
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
@@ -38,6 +42,9 @@
   </head>
 
 <body>
+
+
+
 
   <!-- Sub Header -->
   <div class="sub-header">
@@ -207,9 +214,51 @@
   <section class="our-facts" style="background-image: url(../ejemplo/assets/img/premios.jpg);">
     <div class="container">
 
+        <div class="wrapper">
+          <div class="slider-testimonial">
+            <div class="testimonial-item">
+              <div class="testimonial-client">
+                <img src="assets/img-testi/muestra.png" alt="">
+                <p class="client-name" >Carlos Gomez</p>
+              </div>
+              <div class="testimonial-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, veritatis, similique! Ipsa quam vel repellendus, autem fugiat doloribus? Quam, velit.</p>
+              </div>
+              <div class="main-button-red" style="text-align: center; margin-top: 10px;" >
+                  <a type="button"  data-bs-toggle="modal" data-bs-target="#correo-institucional" style="color: #fff;">Ver Video</a>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="testimonial-client">
+                <img src="assets/img-testi/muestra.png" alt="">
+                <p class="client-name">Fernando Castro</p>
+              </div>
+              <div class="testimonial-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ad hic, consectetur excepturi vero odio quae eos ratione ipsum aliquid.</p>
+              </div>
+              <div class="main-button-red" style="text-align: center; margin-top: 10px;" >
+                  <a type="button"  data-bs-toggle="modal" data-bs-target="#correo-institucional" style="color: #fff;">Ver Video</a>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="testimonial-client">
+                <img src="assets/img-testi/muestra.png" alt="">
+                <p class="client-name">Adrian Fernandez</p>
+              </div>
+              <div class="testimonial-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non voluptate provident eum, itaque nihil. Minus eius nostrum, veritatis eos eum.</p>
+              </div>
+              <div class="main-button-red" style="text-align: center; margin-top: 10px;" >
+                  <a type="button"  data-bs-toggle="modal" data-bs-target="#correo-institucional" style="color: #fff;">Ver Video</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
     </div>
   </section>
+
 
 
   <section class="contact-us">
@@ -282,15 +331,27 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://kit.fontawesome.com/fd7be7c1fb.js" crossorigin="anonymous"></script>
 
-  <!-- paquete de css de linea del tiempo-->   
+  <!-- paquete de js de linea del tiempo-->   
     <script src="assets/js/timeline.min.js"></script>
-      <script>
-    timeline(document.querySelectorAll('.timeline'), {
-      forceVerticalMode: 700,
-      mode: 'horizontal',
-      verticalStartPosition: 'left',
-      visibleItems: 4
-    });
+    <script>
+      timeline(document.querySelectorAll('.timeline'), {
+        forceVerticalMode: 700,
+        mode: 'horizontal',
+        verticalStartPosition: 'left',
+        visibleItems: 4
+      });
+    </script>
+
+  <!-- paquete de js de testimonios-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>   
+    <script src="assets/js/sss.js"></script>
+  <script>
+      jQuery(function($){
+          $('.slider-testimonial').sss({
+            slideShow : true,
+            speed : 3500
+          });
+      });
   </script>
 
     <script src="assets/js/isotope.min.js"></script>
@@ -346,6 +407,41 @@
           checkSection();
         });
     </script>
+
+
+
+<!-- ventanas emergentes de las soporte (Modal's) -->
+
+
+<!-- Modal Correo Institucional -->
+<div class="modal fade" id="correo-institucional" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="border-radius: 20px;">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Video de Prueba</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="ratio ratio-16x9">
+          <video style="border-radius: 20px;" width="320" height="240" controls controlsList="nodownload">
+            <source src="assets/videos-sa/2.- COMO OBTENER EL CORREO INSTITUCIONAL GMAIL SAN AGUSTIN.mp4" type="video/mp4" allowfullscreen>
+          </video>  
+        </div>
+      </div>
+      <div class="modal-footer">
+            <div class="">
+              <a target="_blank" href="https://www.facebook.com/iepsanagustin/"><span style=" height: 40px; width: 40px; background: #881616; line-height: 40px; text-align: center; font-size: 18px; border-radius: 5px; transition: 0.3s;" class="fab fa-facebook-f"></span></a>
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=51946192081"><span style=" height: 40px; width: 40px; background: #881616; line-height: 40px; text-align: center; font-size: 18px; border-radius: 5px; transition: 0.3s;" class="fa fa-whatsapp"></span></a>
+              <a target="_blank" href="https://www.instagram.com/colegiosanagustinsjl/"><span style=" height: 40px; width: 40px; background: #881616; line-height: 40px; text-align: center; font-size: 18px; border-radius: 5px; transition: 0.3s;" class="fab fa-instagram"></span></a>
+              <a target="_blank" href="https://www.youtube.com/channel/UCxtLsq7-7f_MBLIRHO5ZQsQ"><span style=" height: 40px; width: 40px; background: #881616; line-height: 40px; text-align: center; font-size: 18px; border-radius: 5px; transition: 0.3s;" class="fab fa-youtube"></span></a>
+            </div>
+        <button type="button" class="btn btn-secondary" style="background: #881616;" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 </body>
 
 </body>
