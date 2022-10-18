@@ -22,6 +22,9 @@
     <!-- paquete de css de footer -->   
     <link rel="stylesheet" href="assets/css/footer.css">
 
+        <!-- paquete de css de formulario -->   
+    <link rel="stylesheet" href="assets/css/formularios.css">
+
     <!-- CSS de profesores -->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/carr-prof.css">
@@ -80,7 +83,7 @@
                       <ul class="nav">
                           <li><a href="index.html" ><i class="fas fa-home"></i> Inicio</a></li>
                           <li class="has-sub">
-                              <a href="javascript:void(0)" class="active"><i class="fas fa-list-alt"></i> Servicios</a>
+                              <a href="javascript:void(0)"><i class="fas fa-list-alt"></i> Servicios</a>
                               <ul class="sub-menu">
                                   <li><a href="inicial.html">Educación Inicial</a></li>
                                   <li><a href="primaria.html">Educación Primaria</a></li>
@@ -95,7 +98,7 @@
                                   <li><a href="laboratorio.html">Laboratorio</a></li>
                                   <li><a href="movilidad.html">Movilidad</a></li>
                                   <li><a href="sala_computo.html">Sala de Computo</a></li>
-                                  <li><a href="cancha_deportiva.html">Cancha deportiva</a></li>
+                                  <li><a href="cancha_deportiva.html">Campo deportivo</a></li>
                               </ul>
                           </li>
                           <li><a href="#top" class="active"><i class="fa-solid fa-address-book"></i> Citas</a></li>
@@ -108,7 +111,7 @@
                                   <li><a href="documentos.html">Documentos</a></li>
                               </ul>
                           </li>
-                          <li class="scroll-to-section"><a href="https://sanagustinsjl.cubicol.pe/"><i class="fas fa-graduation-cap"></i> Cubibol</a></li>
+                          <li><a target="_blank"  href="https://sanagustinsjl.cubicol.pe/"><i class="fas fa-graduation-cap"></i> Cubibol</a></li>
 
                       </ul>        
                       <a class='menu-trigger'>
@@ -135,14 +138,79 @@
   <!-- ***** Main Inicio Area End ***** -->
 
     <section class="meetings-page2" >
+
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+
         <div class="container">
            <!-- DATOS DEL PADRE-->
 
   <div class="container bg-light" style="padding-top:50px; border-radius: 20px;" > <h1 class="text-center " style="font-family: 'Acme', sans-serif;" >FORMULARIO DE CITAS</h1><hr>
     
+          <h6 style="text-align: justify;">La atención de los docentes será bajo un cronograma de horarios establecidos, según ese se podrá dar al agendado de citas. </h6><br>          
+
+      <h6 style="font-size: 20px; font-style: italic; text-decoration: underline; text-align: center;"><a href="assets/documentos/malla-inicial.pdf" target="_blank" style="color: black; "> <i class="fa-sharp fa-solid fa-eye" style="font-size: 20px; font-style: italic; color: black; "></i> Ver Horario disponible de todos los docentes </a></h6><br><hr>
+
  <form action="enviarcita.php"  method="post"  style="padding-bottom: 30px; ">
-  <div class="form-row">
+  <div class="content">
       <h3 class="text-center " style="font-family: 'Acme', sans-serif;" ><u>DATOS DEL ALUMNO</u></h3> <br>
+
+
     <div class="col-md-12 mb-3">
       <label  for="validationTooltip01">Nombres</label>
       <input type="text" class="form-control" name="nombrepaciente" id="nombrepaciente" placeholder="Ingrese sus nombres..." required>
@@ -448,11 +516,6 @@
           checkSection();
         });
     </script>
-
-
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/carrusel.js"></script>
-
 
   </body>
  
