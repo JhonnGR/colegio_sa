@@ -708,7 +708,7 @@ banner
     background-color: rgba(31,39,43,0.75);
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 6px;
     right: 0;
     width: 100%;
 }
@@ -774,7 +774,7 @@ services
 */
 
 .services {
-  margin-top: -135px;
+  margin-top: -110px;
   position: absolute;
   width: 100%;
 }
