@@ -151,95 +151,102 @@
                 <h6 style="font-size: 20px; font-style: italic; text-decoration: underline; text-align: center;"><a href="assets/documentos/malla-inicial.pdf" target="_blank" style="color: black; "> <i class="fa-sharp fa-solid fa-eye" style="font-size: 20px; font-style: italic; color: black; "></i> Ver Horario disponible de todos los docentes </a></h6><br><hr>
                   
                 <div class="content">
-
-                    <form>
+                    <form action="#">
+                      <h3 class="text-center " style="font-family: 'Acme', sans-serif;" ><u>DATOS DEL ALUMNO</u></h3> <br>
                         <div class="form-row mb-2">
-                            <div class="form-group col-md-4">
-                                <label class="font-weight-bold">Nombre <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" placeholder="Tu nombre">
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Nombres <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresar nombres" required>
                             </div>
-                            <div class="form-group col-md-4">
-                                <label class="font-weight-bold">Apellido <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" placeholder="Tu apellido">
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Apellidos <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresar apellidos" required>
                             </div>                            
-                            <div class="form-group col-md-4">
-                                <label class="font-weight-bold">Apellido <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" placeholder="Tu apellido">
+                        </div>
+                        <div class="form-row mb-2">
+                            <div class="form-group col-md-3">
+                                <label class="font-weight-bold">DNI <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresar DNI" required>
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label class="font-weight-bold">Nivel <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresar nivel" required>
+                            </div>                            
+                            <div class="form-group col-md-3">
+                                <label class="font-weight-bold">Grado / Año <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresar grado/año" required>
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label class="font-weight-bold">Sección <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresar sección" required>
                             </div>
                         </div>
-                        <div class="form-group mb-3">
-                            <label class="font-weight-bold">Correo electrónico <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label class="font-weight-bold">Contraseña <span class="text-danger">*</span></label>
-                            <input type="password" class="form-control" placeholder="Ingresa una contraseña">
-                        </div>
-                        <div class="form-group mb-5">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox">
-                                <label class="form-check-label text-muted">Al seleccionar esta casilla aceptas nuestro aviso de privacidad y los términos y condiciones</label>
+                        <div class="form-row mb-2">
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Correo <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresar correo" required>
+                            </div>                   
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Tema a Tratar <span class="text-danger">*</span></label>
+                                <textarea class="form-control" rows="3" placeholder="Ingresa el tema a tratar..." required></textarea>
                             </div>
                         </div>
-                        <button class="btn btn-primary width-100">Regístrate</button>
+
+                        <h3 class="text-center " style="font-family: 'Acme', sans-serif;" ><u>DATOS DEL DOCENTE</u></h3><br>
+                        
+                        <div class="form-row mb-2">
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Nombres <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresar nombres del docente" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Apellidos <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresar apellidos del docente" required>
+                            </div>  
+                        </div>
+                        <div class="form-row mb-2">
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Nivel <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresar nivel del docente" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Curso / Materia <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresar curso / materia del docente" required>
+                            </div>  
+                        </div>
+
+                        <h3 class="text-center " style="font-family: 'Acme', sans-serif;" ><u>PROGRAME SU CITA</u></h3><br>
+
+                        <div class="form-row mb-2">
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Fecha <span class="text-danger">*</span></label>
+                                <input type="date" class="form-control" id="fecha" name="fecha" value="2023-01-01" required="">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">horario <span class="text-danger">*</span></label>
+                                <select class="form-control" id="hora" name="hora">
+                                  <option>Seleccione Hora..</option>
+                                  <option value="09:00 AM">09:00 AM</option>
+                                  <option value="10:00 AM">10:00 AM</option>
+                                  <option value="11:00 AM">11:00 AM</option>
+                                  <option value="12:00 PM">12:00 PM</option>
+                                  <option value="13:00 PM">13:00 PM</option>
+                                  <option value="14:00 PM">14:00 PM</option>
+                                  <option value="15:00 PM">15:00 PM</option>
+                                  <option value="16:00 PM">16:00 PM</option>
+                                  <option value="17:00 PM">17:00 PM</option>
+                                  <option value="17:30 PM">17:30 PM</option>
+                                </select>
+                            </div>  
+                        </div>
+                        
+                      <div class="main-button-red" style="text-align: center;">
+                          <div class="scroll-to-section"><a href="#contact">Registrar Cita</a></div>
+                      </div><br>
+
                     </form>
 
                 </div>
-
-
-                    <div class="content">
-      <form action="#">
-        <div class="user-details">
-          <div class="input-box">
-            <span class="details">Full Name</span>
-            <input type="text" placeholder="Enter your name" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Username</span>
-            <input type="text" placeholder="Enter your username" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Email</span>
-            <input type="text" placeholder="Enter your email" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required>
-          </div>
-        </div>
-        <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1">
-          <input type="radio" name="gender" id="dot-2">
-          <input type="radio" name="gender" id="dot-3">
-          <span class="gender-title">Gender</span>
-          <div class="category">
-            <label for="dot-1">
-            <span class="dot one"></span>
-            <span class="gender">Male</span>
-          </label>
-          <label for="dot-2">
-            <span class="dot two"></span>
-            <span class="gender">Female</span>
-          </label>
-          <label for="dot-3">
-            <span class="dot three"></span>
-            <span class="gender">Prefer not to say</span>
-            </label>
-          </div>
-        </div>
-        <div class="button">
-          <input type="submit" value="Register">
-        </div>
-      </form> <br>
-    </div>
              
            </div> 
 

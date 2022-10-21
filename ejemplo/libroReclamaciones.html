@@ -9,7 +9,7 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>.::Personal Agustiniano - I.E.P. San Agustín de Hipona::.</title>
+    <title>.::Libro de Reclamaciones Agustiniano - I.E.P. San Agustín de Hipona::.</title>
     <link rel="icon" href="assets/img/logo2.png">
 
     <!-- Bootstrap core CSS -->
@@ -87,47 +87,46 @@
 
           </div>
           <div class="col-md-6 mb-3">
-            <label  for="validationTooltip01">Nombres</label>
+            <label class="font-weight-bold">Nombres <span class="text-danger">*</span></label>
             <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Ingrese sus nombres..." required>
 
           </div>
           <div class="col-md-6 mb-3">
-            <label for="validationTooltip02">Apellidos</label>
+            <label class="font-weight-bold">Apellidos <span class="text-danger">*</span></label>
             <input type="text" class="form-control" placeholder="Ingrese sus apellidos..." name="Apellido" id="Apellido" required>
 
           </div>
 
           <div class="col-md-4 mb-3">
-            <label for="validationTooltip03">DNI</label>
+            <label class="font-weight-bold">DNI <span class="text-danger">*</span></label>            
             <input type="text" class="form-control" name="DNI" id="DNI" placeholder="N° Documento De Identidad" required>
 
           </div>
 
           <div class="col-md-4 mb-3">
-            <label for="validationTooltip05">Fecha Nacimiento</label>
+            <label class="font-weight-bold">Fecha Nacimiento <span class="text-danger">*</span></label>
             <input type="date" class="form-control" name="fecha_de_nacimiento" id="fecha_de_nacimiento" value="0000-00-00" required>
 
 
         </div>
 
         <div class="col-md-4 mb-3">
-          <label for="validationTooltip05">Celular</label>
+          <label class="font-weight-bold">Celular <span class="text-danger">*</span></label>
           <input type="text" class="form-control" name="celular" id="celular" placeholder="999 999 999" required>
 
         </div>
           <div class="col-md-6 mb-3">
-            <label for="validationTooltip03">Correo Electronico</label>
+            <label class="font-weight-bold">Correo Electronico <span class="text-danger">*</span></label>
             <input type="text" class="form-control" name="correo" id="correo" placeholder="ejemplo@gmail.com" required>
+        </div>
+        <div class="col-md-6 mb-3">
 
-          </div>
-            <div class="col-md-6 mb-3">
-
-              <div class="form-group">
-            <label for="sel1">Domicilio</label>
+          <div class="form-group">
+            <label class="font-weight-bold">Domicilio</label>
+            <label for="sel1"></label>
             <input type="text" class="form-control" name="grado_academico" id="grado_academico" placeholder=" Grado Academico" required>
-
           </div>
-          </div>
+        </div>
         <!--DETALLE DEL RECLAMO-->
           <div class="form-row">
               <h4 class="text-center " style="font-family: 'Acme', sans-serif;" ><u>Detalle del reclamo y/o pedido del Padre y/o Apoderado</u></h4> <br>
@@ -136,7 +135,7 @@
             </div>
             <div class="col-md-12 mb-3">
               <div class="form-group">
-                <label for="sel">Tipo de Reclamación</label>
+                <label class="font-weight-bold">Tipo de Reclamación <span class="text-danger">*</span></label>
                 <select class="form-control" id="reclamo" name="reclamo">
                     <option>Seleccione tipo de reclamo...</option>
                  <option value="Queja">Queja</option>
@@ -149,13 +148,13 @@
 
 
             <div class=" col-md-12 mb-3">
-            <label for="validationTextarea">Descripción</label>
+            <label class="font-weight-bold">Descripción <span class="text-danger">*</span></label>
             <textarea class="form-control " name="descripcion" id="descripcion" placeholder="Ingrese su descripción" ></textarea>
 
           </div>
 
           <div class=" col-md-12 mb-3">
-          <label for="validationTextarea">Pedido</label>
+          <label class="font-weight-bold">Pedido <span class="text-danger">*</span></label>
           <textarea class="form-control " name="descripcion" id="descripcion" placeholder="Ingrese su descripción" ></textarea>
           </div>
 
